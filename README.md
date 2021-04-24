@@ -4,6 +4,7 @@
 git repo for [Meralus.com site](https://meralus.com)
 
 
+Used as a splash page to point to blog, projects, and contact information 
 
 # Setup and Test
 * sudo apt-get install ruby-full build-essential zlib1g-dev
