@@ -1,4 +1,4 @@
-# Meralus.com 
+# Meralus.com
 
 
 git repo for [Meralus.com site](https://meralus.com)
@@ -6,13 +6,13 @@ git repo for [Meralus.com site](https://meralus.com)
 
 
 # Setup and Test
- sudo apt-get install ruby-full build-essential zlib1g-dev
+* sudo apt-get install ruby-full build-essential zlib1g-dev
  or
- snap install ruby --classic
- gem install jekyll bundle
- gem install jekyll bundler
+* snap install ruby --classic
+* gem install jekyll bundle
+* gem install jekyll bundler
 
- bundle exec jekyll serve
+* bundle exec jekyll serve
 
 
 Build the site and make it available on a local server.
