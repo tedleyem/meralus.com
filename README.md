@@ -1,26 +1,24 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Meralus.com Blogging and Landing Page
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+# Inspired by
+(Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
 
-## Demo
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+# For Testing site Only
+$ bundle exec jekyll serve
 
-The main page would look like this:
+# Jekyll Blog Dev steps
+(Setting up Jekyll in a dev env)[https://jekyllrb.com/tutorials/using-jekyll-with-bundler/]
+-- Configure Bundler Install Path
+$ bundle config set --local path 'vendor/bundle'
+-- Add Jekyll
+$ bundle add jekyll
+--- Create A Jekyll Scaffold
+$ bundle exec jekyll new --force --skip-bundle .
+$ bundle install
+-- Sping up website on localhost
+$ bundle exec jekyll serve
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
-
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
 
 ## Installation:
 
