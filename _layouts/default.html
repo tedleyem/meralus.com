@@ -1,28 +1,12 @@
-<!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 {% include head.html %}
 <body>
 
-<!-- Header -->
-<header id="header">
-	<h1>{{ site.title }}</h1>
-	<p>{{ site.description }}</p>
-</header>
-
-<form method="get" action="https://blog.meralus.com">
-    <button type="submit"> My Blog  </button>
-</form>
-
-<form method="get" action="https://github.com/tmeralus">
-    <button type="submit"> Projects on Github </button>
-</form>
-
-{% include footer.html %}
-
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
 </body>
 </html>

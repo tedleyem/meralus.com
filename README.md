@@ -1,20 +1,31 @@
-# Meralus.com
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-git repo for [Meralus.com site](https://meralus.com)
+## Demo
 
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-Used as a splash page to point to blog, projects, and contact information 
+The main page would look like this:
 
-# Setup and Test
-* sudo apt-get install ruby-full build-essential zlib1g-dev
- or
-* snap install ruby --classic
-* gem install jekyll bundle
-* gem install jekyll bundler
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-* bundle exec jekyll serve
+The post page would look like this:
 
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-Build the site and make it available on a local server.
-bundle exec jekyll serve
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
+
+## Installation:
+
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+
+## License
+
+GNU General Public License v3.0
