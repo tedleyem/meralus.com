@@ -1,13 +1,13 @@
 # Meralus.com Blogging and Landing Page
 
-# Inspired by
+## Inspired by
 (Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
 
 
-# For Testing site Only
+## For Testing site Only
 $ bundle exec jekyll serve
 
-# Jekyll Blog Dev steps
+## Jekyll Blog Dev steps
 (Setting up Jekyll in a dev env)[https://jekyllrb.com/tutorials/using-jekyll-with-bundler/]
 -- Configure Bundler Install Path
 $ bundle config set --local path 'vendor/bundle'
