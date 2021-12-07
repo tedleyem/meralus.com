@@ -9,7 +9,8 @@ comments: true
 Naturally the [curl](https://curl.se/) command doesnt allow the ability to curl [websockets](https://en.wikipedia.org/wiki/WebSocket).
 example:
 
- 	```
+
+```
 $ curl --include \
        --no-buffer \
        --header "Connection: Upgrade" \
@@ -19,7 +20,8 @@ $ curl --include \
        --header "Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==" \
        --header "Sec-WebSocket-Version: 13" \
        http://testexample.com:80/
- 	```
+
+```
 
 You can copy this and replace testexample.com with the hostname of your choice and you'll see all the websocket data you need.
 
