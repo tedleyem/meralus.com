@@ -6,21 +6,40 @@ excerpt: "Postgres Cheat Sheet"
 comments: true
 ---
 
-Here is a quick PostgresDB cheat sheet for navigating throught a Postgresql Database 
-I use it frequently and figured others might find it useful. 
+Here is a quick PostgresDB cheat sheet for navigating throught a Postgresql Database
+I use it frequently and figured others might find it useful.
 
-Helpful Docs 
+Helpful Docs
 [PGDUMP](https://www.postgresql.org/docs/9.2/app-pgdump.html)
 [PG_DUMPALL](https://www.postgresql.org/docs/9.2/app-pg-dumpall.html)
 [CREATEDB](https://www.postgresql.org/docs/9.1/app-createdb.html)
 
 
+
 	| Syntax | Description |
 	| ----------- | ----------- |
-	| \c | Switch between databases |
+	| \c <table-name> | Switch between databases |
+	| \dt | list tables|
+	| \dt+ | list tables|
+	| \dt *.* | List tables from all schemas |
+	| \dn | list table names and owners |
 	| create database | createdb demo |
-	| reload such a script into a (freshly created) database   named demo | psql -d demo -f db.sql |
-	| Paragraph | Text |
-	| Paragraph | Text |
-	| Paragraph | Text |    
- 
+	| \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
+	| SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND
+schemaname='__schema_name__'; | Check indexes for a table using sql |
+
+
+  | Backup Options | BACKUP POSTGRES DB |
+	| ----------- | ----------- |
+	| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only > /path/to/your/file/db.sql | To only dump global options from all databases |
+  | pg_dumpall > /path/to/your/file/db.sql | To dump all databases to a file called db.sql |
+	| psql -f /path/to/your/file/db.sql postgres | To reload database(s) from a file named db.sql |
+	| pg_dumpall -h localhost -p 5432 -U postgres -v --roles-only -f "/path/to/your/file/db.sql" | Postgres 8.3 introduced the -f option to denote the file name and -r to only  backup roles which makes things a bit more predictable how they behave  from OS to OS. |
+	| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only -f "/path/to/your/file/db.sql" | If you want to backup all globals which includes tables spaces and user accounts |
+ | psql -h localhost -d postgres -U postgres -f "/path/to/useraccts.sql" | To restore the accounts on the new server, open up the useraccts.sql file  generated and delete all the accounts and stuff you don't want to bring  over |
+
+
+ | Recovery | Restore A database |
+ | ----------- | ----------- |
+ | psql -d demo -f /path/to/your/file/db.sql | Load db.sql into (freshly created) database named demo |
+ | $ pg_restore -d db_name /path/to/your/file/db.sql -c -U db_user | Restore from custom archive backup file named db.sql |
