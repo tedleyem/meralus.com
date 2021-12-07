@@ -27,8 +27,8 @@ I use it frequently and figured others might find it useful.
 | \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
 | SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND schemaname='__schema_name__'; | Check indexes for a table using sql |
 
-
-| Backup Options | BACKUP POSTGRES DB |
+## BACKUP COMMANDS 
+| Syntax | Description |
 | ----------- | ----------- |
 | pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only > /path/to/your/file/db.sql | To only dump global options from all databases |
 | pg_dumpall > /path/to/your/file/db.sql | To dump all databases to a file called db.sql |
@@ -38,7 +38,10 @@ I use it frequently and figured others might find it useful.
 | psql -h localhost -d postgres -U postgres -f "/path/to/useraccts.sql" | To restore the accounts on the new server, open up the useraccts.sql file  generated and delete all the accounts and stuff you don't want to bring  over |
 
 
- | Recovery | Restore A database |
- | ----------- | ----------- |
- | psql -d demo -f /path/to/your/file/db.sql | Load db.sql into (freshly created) database named demo |
- | $ pg_restore -d db_name /path/to/your/file/db.sql -c -U db_user | Restore from custom archive backup file named db.sql |
+## RESTORE  COMMANDS 
+| Syntax | Description |
+| ----------- | ----------- |
+| psql -d demo -f /path/to/your/file/db.sql | Load db.sql into (freshly created) database named demo |
+| $ pg_restore -d db_name /path/to/your/file/db.sql -c -U db_user | Restore from custom archive backup file named db.sql |
+
+ 
