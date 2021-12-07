@@ -24,9 +24,7 @@ I use it frequently and figured others might find it useful.
 | \dt+ | list tables|
 | \dt *.* | List tables from all schemas |
 | \dn | list table names and owners |
-| create database | createdb demo |
-| \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
-| SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND schemaname='__schema_name__'; | Check indexes for a table using sql |
+| createdb demo | create a database named demo |  
 
  
 ## BACKUP COMMANDS 
@@ -46,6 +44,7 @@ I use it frequently and figured others might find it useful.
 | Syntax | Description |
 | ----------- | ----------- |
 | psql -d demo -f /path/to/your/file/db.sql | Load db.sql into (freshly created) database named demo |
+| psql -f /path/to/your/file/db.sql | Restore db.sql databases |
 | $ pg_restore -d db_name /path/to/your/file/db.sql -c -U db_user | Restore from custom archive backup file named db.sql |
 
  
