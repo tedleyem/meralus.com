@@ -16,27 +16,26 @@ Helpful Docs
 
 
 
-	| Syntax | Description |
-	| ----------- | ----------- |
-	| \c <table-name> | Switch between databases |
-	| \dt | list tables|
-	| \dt+ | list tables|
-	| \dt *.* | List tables from all schemas |
-	| \dn | list table names and owners |
-	| create database | createdb demo |
-	| \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
-	| SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND
-schemaname='__schema_name__'; | Check indexes for a table using sql |
+| Syntax | Description |
+| ----------- | ----------- |
+| \c <table-name> | Switch between databases |
+| \dt | list tables|
+| \dt+ | list tables|
+| \dt *.* | List tables from all schemas |
+| \dn | list table names and owners |
+| create database | createdb demo |
+| \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
+| SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND schemaname='__schema_name__'; | Check indexes for a table using sql |
 
 
-  | Backup Options | BACKUP POSTGRES DB |
-	| ----------- | ----------- |
-	| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only > /path/to/your/file/db.sql | To only dump global options from all databases |
-  | pg_dumpall > /path/to/your/file/db.sql | To dump all databases to a file called db.sql |
-	| psql -f /path/to/your/file/db.sql postgres | To reload database(s) from a file named db.sql |
-	| pg_dumpall -h localhost -p 5432 -U postgres -v --roles-only -f "/path/to/your/file/db.sql" | Postgres 8.3 introduced the -f option to denote the file name and -r to only  backup roles which makes things a bit more predictable how they behave  from OS to OS. |
-	| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only -f "/path/to/your/file/db.sql" | If you want to backup all globals which includes tables spaces and user accounts |
- | psql -h localhost -d postgres -U postgres -f "/path/to/useraccts.sql" | To restore the accounts on the new server, open up the useraccts.sql file  generated and delete all the accounts and stuff you don't want to bring  over |
+| Backup Options | BACKUP POSTGRES DB |
+| ----------- | ----------- |
+| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only > /path/to/your/file/db.sql | To only dump global options from all databases |
+| pg_dumpall > /path/to/your/file/db.sql | To dump all databases to a file called db.sql |
+| psql -f /path/to/your/file/db.sql postgres | To reload database(s) from a file named db.sql |
+| pg_dumpall -h localhost -p 5432 -U postgres -v --roles-only -f "/path/to/your/file/db.sql" | Postgres 8.3 introduced the -f option to denote the file name and -r to only  backup roles which makes things a bit more predictable how they behave  from OS to OS. |
+| pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only -f "/path/to/your/file/db.sql" | If you want to backup all globals which includes tables spaces and user accounts |
+| psql -h localhost -d postgres -U postgres -f "/path/to/useraccts.sql" | To restore the accounts on the new server, open up the useraccts.sql file  generated and delete all the accounts and stuff you don't want to bring  over |
 
 
  | Recovery | Restore A database |
