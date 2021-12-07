@@ -15,7 +15,7 @@ I use it frequently and figured others might find it useful.
 * [CREATEDB](https://www.postgresql.org/docs/9.1/app-createdb.html)
 
 
-
+## QUICK COMMANDS 
 | Syntax | Description |
 | ----------- | ----------- |
 | \c <table-name> | Switch between databases |
