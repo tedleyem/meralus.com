@@ -16,6 +16,7 @@ I use it frequently and figured others might find it useful.
 
 
 ## QUICK COMMANDS 
+
 | Syntax | Description |
 | ----------- | ----------- |
 | \c <table-name> | Switch between databases |
@@ -27,7 +28,9 @@ I use it frequently and figured others might find it useful.
 | \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV | Copy table data to CSV file |
 | SELECT * FROM pg_indexes WHERE tablename='__table_name__' AND schemaname='__schema_name__'; | Check indexes for a table using sql |
 
+ 
 ## BACKUP COMMANDS 
+ 
 | Syntax | Description |
 | ----------- | ----------- |
 | pg_dumpall -h localhost -p 5432 -U postgres -v --globals-only > /path/to/your/file/db.sql | To only dump global options from all databases |
@@ -39,6 +42,7 @@ I use it frequently and figured others might find it useful.
 
 
 ## RESTORE  COMMANDS 
+ 
 | Syntax | Description |
 | ----------- | ----------- |
 | psql -d demo -f /path/to/your/file/db.sql | Load db.sql into (freshly created) database named demo |
