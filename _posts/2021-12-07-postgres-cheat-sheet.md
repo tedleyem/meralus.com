@@ -14,8 +14,13 @@ Helpful Docs
 [PG_DUMPALL](https://www.postgresql.org/docs/9.2/app-pg-dumpall.html)
 [CREATEDB](https://www.postgresql.org/docs/9.1/app-createdb.html)
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
 
+	| Syntax | Description |
+	| ----------- | ----------- |
+	| \c | Switch between databases |
+	| create database | createdb demo |
+	| reload such a script into a (freshly created) database   named demo | psql -d demo -f db.sql |
+	| Paragraph | Text |
+	| Paragraph | Text |
+	| Paragraph | Text |    
+ 
