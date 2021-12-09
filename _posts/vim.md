@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "VIM Cheat Sheet"  
+date:   2021-12-09
+excerpt: "VIM Cheat Sheet" 
 ---
 
 This page is helpful tips on how to quickly navigate using VIM
