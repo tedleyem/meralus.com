@@ -44,5 +44,5 @@ Talking our feelings out and using words to convey our emotions will be our time
 
 Our hobbies will consist of quality time and learning the quotes that always ring back in my mind when I start getting stuck and my thoughts start spinning. 
 
-We will laugh, love, and twist the night away. The only bad habits I want to teach are these motor skills on the dance floor! 
+We will do more laughing, make more loving moments, and develop motor skills to twist the night away. The only bad habits I want to teach are these motor skills on the dance floor! 
 
