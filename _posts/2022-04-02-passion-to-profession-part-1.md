@@ -8,9 +8,8 @@ excerpt: "Ted's Passion to Professional Career Story Part 1"
  
 ## Part 1: From Curiosity with Computers to Coding with Comfort
 *Knowledge, like air, is vital to life. And like air, no one should be denied it.*
-
-![picture of me fixing doom on my pc est: maybe 2006](/assets/img/blog/passion-to-profession/cover-picture-1019.jpg) 
-<img src="/assets/img/blog/passion-to-profession/cover-picture-1019.jpg" width="50%" height="50%">
+ 
+<img src="/assets/img/blog/passion-to-profession/cover-picture-1019.jpg" width="30%" height="30%">
 
 
 This is a small blog entry about my entry into my tech career. I have spent a lot of my tech career learning to create something from nothing and finding solutions

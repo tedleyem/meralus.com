@@ -35,10 +35,10 @@ Taking the software approach meant learning about the new kids on the block and 
 
 * LAST CUSTOMER BUILD BEFORE 2022
 ![2012 old custom build](/assets/img/blog/dev-env-ansible/2012-build.jpg)
-<img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="50%" height="50%">
+<img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="30%" height="30%">
 * SMALLER BUILD 
 ![2012 new pc](/assets/img/blog/dev-env-ansible/2012-build-2.jpg)
-<img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="50%" height="50%">
+<img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="30%" height="30%">
 
 Following my minimalistic approach I went from 6 computers running different Linux or Windows based environments, to one 
 small pc with 32gb of ram (expensive at the time) that could produce virtual machines or spin up Vagrant boxes to do my bidding. 
@@ -69,8 +69,8 @@ Here is a changelog of the scripts I have been adding over the years
 Here are some images of previous working environments as well 
  
 ![2016 home lab](/assets/img/blog/dev-env-ansible/2012-build-2.jpg)
-<img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="50%" height="50%">
+<img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="30%" height="30%">
 ![2018 home lab](/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg)
-<img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="50%" height="50%">
+<img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="30%" height="30%">
 ![2018 work lab](/assets/img/blog/dev-env-ansible/work_20190801.jpg)
-<img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="50%" height="50%">
+<img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="30%" height="30%">
