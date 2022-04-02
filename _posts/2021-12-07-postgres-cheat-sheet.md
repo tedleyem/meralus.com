@@ -3,6 +3,7 @@ layout: post
 title:  "Postgres Cheat Sheet"
 date:   2021-12-07
 excerpt: "Postgres Cheat Sheet"
+img: "blog-headers/postgres.png"
 comments: true
 ---
 

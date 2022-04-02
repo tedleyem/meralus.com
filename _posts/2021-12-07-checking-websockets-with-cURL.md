@@ -3,7 +3,7 @@ layout: post
 title:  "Checking Websockets with curl "
 date:   2021-12-07
 excerpt: "Checking Websockets with curl "
-comments: true
+img: "blog-headers/webhook.png"
 ---
 
 Naturally the [curl](https://curl.se/) command doesnt allow the ability to curl [websockets](https://en.wikipedia.org/wiki/WebSocket).
