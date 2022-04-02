@@ -17,8 +17,7 @@ I decided to hold off an on GPU for now and see if the integrated graphics are s
 the new Guilty Gear, King of Fighters, or (i'm hoping) Street Fighter V on low settings. The RAM will  be upgraded to max out the usage so I can start playing 
 with microk8's and more docker images without issue soon enough. So, for anyone who is intereted. Here is a list of my unfinished build. 
 
-2022 PC WALL MOUNTED BUILD 
-*pictures coming soon*
+## 2022 PC WALL MOUNTED BUILD --UNFINISHED  
 
 | 2022 Unfinished PC WALL MOUNTED BUILD |
 | ------------------------------------- |
@@ -32,7 +31,7 @@ with microk8's and more docker images without issue soon enough. So, for anyone 
 | CPU Cooler    | .... I'm just gonna blow on it every time I turn it on    |
 | PSU      | [CORSAIR - CX-M Series CX750M ](https://www.bestbuy.com/site/corsair-cx-m-series-cx750m-semi-modular-low-noise-atx-power-supply-black/6459241.p?skuId=6459241) |
 | Case      | [Thermaltake Core P3 ATX Tempered Glass Gaming Computer Case Chassis](https://www.amazon.com/dp/B07BFGB8Z6?psc=1&ref=ppx_yo2_dt_b_product_details ) |
-| Monitors      | centered      |   $12 | 
+| Monitors      |  [Dell SE2722HX - 27-inch FHD](https://www.dell.com/en-us/work/shop/dell-27-monitor-e2722hs/apd/210-bbwu/monitors-monitor-accessories)|  
   
   
 
@@ -40,15 +39,18 @@ with microk8's and more docker images without issue soon enough. So, for anyone 
 <img src="/assets/img/blog/2022-build/thinkpad.jpg" width="40%" height="40%">
 <img src="/assets/img/blog/2022-build/work-macbook.jpg" width="40%" height="40%">
 <img src="/assets/img/blog/2022-build/monitors.jpg" width="40%" height="40%">
+## New Wallmounted Parts 
 <img src="/assets/img/blog/2022-build/build-parts-1.jpg" width="40%" height="40%">  
+<img src="/assets/img/blog/2022-build/build-parts-2.jpg" width="40%" height="40%">  
 
 # OLD BUILD PICTURES 
-Here are some images of previous working environments as well 
-* 2016 home lab 
-* <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="40%" height="40%">
+
+Here are some images of my working environments over the years
+* 2022 home & work lab (remote work for the win) 
+* * <img src="/assets/img/blog/2022-build/monitors.jpg" width="60%" height="40%">
+* 2019 work lab 
+* * <img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="60%" height="40%">
 * 2018 home lab 
 * * <img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="50%" height="30%">
-* 2018 work lab 
-* * <img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="60%" height="40%">
-* 2022 home & work lab (remote work for the win) 
-* * <img src="/assets/img/blog/dev-env-ansible/work_2022.jpg" width="60%" height="40%">
+* 2016 home lab 
+* <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="40%" height="40%">
