@@ -4,14 +4,14 @@ title:  From Passion to a Professional Career
 date:   2022-04-02
 excerpt: "Ted's Passion to Professional Career Story Part 1"  
 ---
-*Knowledge, like air, is vital to life. And like air, no one should be denied it.*
+
  
 ## Part 1: From Curiosity with Computers to Coding with Comfort
+*Knowledge, like air, is vital to life. And like air, no one should be denied it.*
 
-*This is a small blog entry about my entry into my tech career*
 ![picture of me fixing doom on my pc est: maybe 2006](/assets/img/blog/passion-t-profession/cover-picture-1019.jpg) 
 
-I have spent a lot of my tech career learning to create something from nothing and finding solutions
+This is a small blog entry about my entry into my tech career. I have spent a lot of my tech career learning to create something from nothing and finding solutions
 to technical problems that benefit myself and others. It has been a rocky road and has had its ups and downs but there are moments
 in my career that have made pivotal changes in my career. This is a story of how I went from fixing computers to writing code and how I go to where I am today. I'm an avid fan of scratching my curiosity with computers or tech. I have learned in life (and not from the V from Vendetta film because I haven't seen it yet) that Knowledge is vital to life. For one to adapt in the world you must learn to be like water, to learn to be still and adapt to your surroundings.
 
