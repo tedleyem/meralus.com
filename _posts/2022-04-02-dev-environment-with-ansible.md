@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ansible and Automation"
+title:  "2022 Dev Environment with Ansible"
 date:   2022-04-02
 excerpt: "The sailor that kept sailing "
 project: true
@@ -34,10 +34,10 @@ building and hoarding custom pc builds like the last one I had done in 2013 to c
 Taking the software approach meant learning about the new kids on the block and finding out how that worked for my situation. At the time I wasnt working professionally in the tech industry but I had already been sacrificing good quality gaming time with friends to learn how to spin up web servers, what load balancing tools were free and available, and how I could take the tools I was learning and the custom builds (first picture below) that had 4 8gb sticks of ram and 4 250 HDD drives to something more modern and smaller (second picture below) with the same specs. 
 
 * LAST CUSTOMER BUILD BEFORE 2022
-![title](/img/blog/dev-env-ansible/2012-build.jpg) 
+![2012 old custom build](/assets/img/blog/dev-env-ansible/2012-build.jpg) 
 
 * SMALLER BUILD 
-![title](/img/blog/dev-env-ansible/2012-build2.jpg) 
+![2012 new pc](/assets/img/blog/dev-env-ansible/2012-build2.jpg) 
 
 
 Following my minimalistic approach I went from 6 computers running different Linux or Windows based environments, to one 
