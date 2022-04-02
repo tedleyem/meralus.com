@@ -4,16 +4,13 @@ Setting up a development environment
 
 Dev env with micro k8's 
 
-Using ansible
+
 
 Jobs with Jenkins - webhooks 
 
 Terraform 
 
 Postgres preconfiguration 
-
-
-
 
 
 # Dev environments

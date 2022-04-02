@@ -10,7 +10,7 @@ Knowledge, like air, is vital to life. And like air, no one should be denied it.
 I recently made the mistake of plugging my Lenovo X1 Carbon (Gen 5) into a 5 volt USB-C charger overnight. The LED on the side indicated that it was charging but, when I woke up in the morning, it obviously hadn't. Worse, it now refused to charge even when plugged into the correct charger.
 
 The fix is simple (although undocumented as far as I can tell). Basically, you need to reset the battery as follows:
-
+ 	> 
     Unplug from any power sources (this won't work if you don't do this).
     Reboot into the BIOS setup (F1 on boot).
     Navigate to the Power menu.

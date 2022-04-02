@@ -7,12 +7,8 @@ project: true
 tags: [docker, tech, software] 
 ---
 
-2021-build.jpg
-2021-build-2.jpg
-cover-picture-1019.jpg
-dev-helm-ct.jpg
-simple-build.jpg
-work_20190801.jpg
+I have previously spoken about my dev environment and using a bash script to setup a new "home lab" or working dev environment [here](https://meralus.com/my-dev-env/)
+but I dont think I ever broke down how I go there. So i'm writing this as a Ted Talk to share soem of my past experiences and tech related stories. 
 
 Automating has become a key tool in todays tech society. There are many tools and platforms that can be used to 
 help with automation like Ansible. Ansible is a configuration management tool that is popularly used in the DevOps
@@ -37,10 +33,11 @@ building and hoarding custom pc builds like the last one I had done in 2013 to c
 
 Taking the software approach meant learning about the new kids on the block and finding out how that worked for my situation. At the time I wasnt working professionally in the tech industry but I had already been sacrificing good quality gaming time with friends to learn how to spin up web servers, what load balancing tools were free and available, and how I could take the tools I was learning and the custom builds (first picture below) that had 4 8gb sticks of ram and 4 250 HDD drives to something more modern and smaller (second picture below) with the same specs. 
 
-![title](Images/example.png)
-[custom builds](/img/blog/dev-env-ansible/2012-build.jpg)
+* LAST CUSTOMER BUILD BEFORE 2022
+![title](/img/blog/dev-env-ansible/2012-build.jpg) 
 
-[smaller build](/img/blog/dev-env-ansible/2012-build2.jpg)
+* SMALLER BUILD 
+![title](/img/blog/dev-env-ansible/2012-build2.jpg) 
 
 
 Following my minimalistic approach I went from 6 computers running different Linux or Windows based environments, to one 
@@ -57,5 +54,13 @@ Come 2017. My knowledge in github had grown and I had started putting small proj
 I soon realized that with Ansible, regardless of what computer I had and which OS i was using (which at the time I had been considering distro hopping again) I can write an ansible playbook that will download all the tools I need, the software I was working with, and setup my entire work environment in less than 10 minutes. It felt like using [ninite.com](https://ninite.com/) when I was setting up windows based pc's and automating the install process of alot of common applications.
 
 My 5+ year solution for provisioning my dev environment was solved. during the years before I started using ansible I had written a bash script to download software, setup folder structures, and do everything I need in a Debian/Ubuntu based environment. Now that I was using ansible 
-I could switch between CentOS or Ubuntu run my script to look for and install all the packages I needed. Ansible playbooks, which is a feature in ansible to run a list of tasks idempotently allowed me to determine the OS environment, install needed packages like steam, whichever IDE I was using that the time, copy wallpaper to my pictures folder, set my wallpaper, move my alias to my bash profile, and download different software from the internet. I have a public version of my [dev-environment](https://github.com/tmeralus/dev-environment-ansible-role) ansible playbook to share with others so hopefully they can not only use it as an example for how to write an ansible playbook and setup a software based dev environment. My approach may seem different to some, and helpful to others. I just hope that whoever read this enjoys the post and shares their thoughts with me via Twitter :) 
+I could switch between CentOS or Ubuntu run my script to look for and install all the packages I needed. Ansible playbooks, which is a feature in ansible to run a list of tasks idempotently allowed me to determine the OS environment, install needed packages like steam, whichever IDE I was using that the time, copy wallpaper to my pictures folder, set my wallpaper, move my alias to my bash profile, and download different software from the internet. I have a public version of my [dev-environment](https://github.com/tmeralus/dev-environment-ansible-role) ansible playbook to share with others so hopefully they can not only use it as an example for how to write an ansible playbook and setup a software based dev environment. My approach may seem different to some, and helpful to others. I just hope that whoever read this enjoys the post and shares their thoughts with me via [Twitter](https://twitter.com/techgameteddy) :) 
 
+==Quote to leave you with: ==
+ *The means of learning are abundant, The desire to learn is scarce.*
+
+
+Here is a changelog of the scripts I have been adding over the years 
+* [Fresh Install Script](https://github.com/tmeralus/fresh-install-linux)
+* [Dev Environment Script- 2018 ](https://github.com/tmeralus/dev-environment-script)
+* [Latest Dev Environment Script + Ansible - 2020](https://github.com/tmeralus/dev-environment-ansible-role)

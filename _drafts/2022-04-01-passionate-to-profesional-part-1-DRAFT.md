@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  From Passion to Paycheck
-date:   2018-11-24
-excerpt: "Ted's Passion to Paycheck Story"
+title:  From Passion to a Profitable Career
+date:   2022-04-02
+excerpt: "Ted's Passion to Profession Story Part 1"
 tags: [wordpress, code, hackathon, teamwork, networking, development, Palm Beach, life]
 comments: true
 ---
@@ -170,6 +170,12 @@ To this day we remain friends on social media and laugh about it but back then I
 
 # The Rebrand
 I knew at that time I needed to re-brand myself. I had went from neighborhood computer kid, to Team Lead Tier 3 tech support rep, to wanna be developer. I wanted to market myself in a space that would allow me to secure my future in the tech industry and help people who find me online know that I not only have a passion for what I do but I mean business. To do that I knew I couldn't work for anymore tech support companies. My mom who had been a teacher for over a decade had told me about working in the school district, the hours were nice, the holidays off and free time off work would allow me to continue trying to build apps and make some money on the side while getting that government bread.
+
+
+
+# UPDATES TO THIS STORY COMING SOON 
+This is the first part of my passionate to professional
+
 
 # Control vs Comfort
 I worked with some school district friend my mom had to find out how to get a job in the district.

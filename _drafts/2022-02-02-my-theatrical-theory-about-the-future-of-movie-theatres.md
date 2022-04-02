@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "The Future of Movie theatres, The excitement of new stories"
-date:   2022-02-01
+date:   2022-02-02
 excerpt: "My theory on theatres and attention"
-project: true
-tags: [add, tags , here,]
+project: true 
 comments: true
 ---
 
