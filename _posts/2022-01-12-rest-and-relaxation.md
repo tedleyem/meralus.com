@@ -3,6 +3,7 @@ layout: post
 title:  "Babies and Bad Habits"
 date:   2022-01-12
 excerpt: "Finding a shut down time for your brain"   
+img: "blog-headers/kam-relaxed.jpg"
 ---
 I keep telling myself I want to do more, make more, develop something, finish this book, script, project, so that when my daughter is older I can show her that if Daddy can do all these things I can too. 
 My daughter, Kendall, 5 pounds 8 ounces of bliss and beauty is now here and I cant find time to rest. 

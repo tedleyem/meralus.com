@@ -2,7 +2,8 @@
 layout: post
 title:  From Passion to a Professional Career
 date:   2022-04-02
-excerpt: "Ted's Passion to Professional Career Story Part 1"  
+excerpt: "Ted's Passion to Professional Career Story Part 1" 
+img: "blog-headers/passion.jpg" 
 ---
 
  

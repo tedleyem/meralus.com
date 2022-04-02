@@ -4,6 +4,7 @@ title:  Fixing Battery Issue for Thinkpad X1 carbon
 date:   2022-03-19
 excerpt: "7th gen Lenovo Thinkpad X1 Carbon | Ubuntu 20.04" 
 comments: true
+img: "blog-headers/battery-issue.jpg"
 ---
 Knowledge, like air, is vital to life. And like air, no one should be denied it.
 

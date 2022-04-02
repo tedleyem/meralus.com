@@ -3,7 +3,7 @@ layout: post
 title:  "2022 Unfinished PC Upgrade"
 date:   2022-04-02
 excerpt: "PC Upgrade "
-img: "blog/2022-build/monitors.jpg"
+img: "blog-headers/pc-build.jpg"
 project: true 
 ---
 

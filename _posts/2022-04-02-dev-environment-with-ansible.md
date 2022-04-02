@@ -4,7 +4,7 @@ title:  "2022 Dev Environment with Ansible"
 date:   2022-04-02
 excerpt: "The sailor that kept sailing "
 project: true
-tags: [docker, tech, software] 
+img: "blog-headers/monitors.jpg"
 ---
 
 I have previously spoken about my dev environment and using a bash script to setup a new "home lab" or working dev environment [here](https://meralus.com/my-dev-env/)
