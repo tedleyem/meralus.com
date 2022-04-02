@@ -37,7 +37,7 @@ Taking the software approach meant learning about the new kids on the block and 
 ![2012 old custom build](/assets/img/blog/dev-env-ansible/2012-build.jpg) 
 
 * SMALLER BUILD 
-![2012 new pc](/assets/img/blog/dev-env-ansible/2012-build2.jpg) 
+![2012 new pc](/assets/img/blog/dev-env-ansible/2012-build-2.jpg) 
 
 
 Following my minimalistic approach I went from 6 computers running different Linux or Windows based environments, to one 
@@ -64,3 +64,10 @@ Here is a changelog of the scripts I have been adding over the years
 * [Fresh Install Script](https://github.com/tmeralus/fresh-install-linux)
 * [Dev Environment Script- 2018 ](https://github.com/tmeralus/dev-environment-script)
 * [Latest Dev Environment Script + Ansible - 2020](https://github.com/tmeralus/dev-environment-ansible-role)
+
+
+Here are some images of previous working environments as well 
+ 
+![2016 home lab](/assets/img/blog/dev-env-ansible/2012-build-2.jpg) 
+![2018 home lab](/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg) 
+![2018 work lab](/assets/img/blog/dev-env-ansible/work_20190801.jpg) 
