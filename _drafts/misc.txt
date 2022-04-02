@@ -1,13 +1,20 @@
----
-layout: post
-title:  "Ansible and Automation"
-date:   2019-01-25
-excerpt: "Ansible and Automation"
-project: true
-tags: [docker, tech, software]
-comments: true
----
-The sailor that kept sailing 
+Installing ubuntu with 2 hdd drives 
+
+Setting up a development environment
+
+Dev env with micro k8's 
+
+Using ansible
+
+Jobs with Jenkins - webhooks 
+
+Terraform 
+
+Postgres preconfiguration 
+
+
+
+
 
 # Dev environments
 # What is docker
@@ -19,6 +26,7 @@ The sailor that kept sailing
 # CCDA Validator
 
 
+
 define docker
 explain how a python application being built for windows and linux
 may have problems with libraries involved and managing libraries and changes.
@@ -27,3 +35,19 @@ explain how it can be used to isolate parts of a wordpress server
 
 explain docker compose and how it connects containers together.
 create wordpress docker compose repo with HIGHEND theme
+
+
+
+
+Copying PostgreSQL database to another server
+
+
+https://www.postgresqltutorial.com/postgresql-copy-database/ 
+
+
+Kubernetes Storage 101: Concepts and Best Practices
+
+
+11 Things to Know about Databases and Postgres in Containers
+
+
