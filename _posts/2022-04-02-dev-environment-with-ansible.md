@@ -34,9 +34,9 @@ building and hoarding custom pc builds like the last one I had done in 2013 to c
 Taking the software approach meant learning about the new kids on the block and finding out how that worked for my situation. At the time I wasnt working professionally in the tech industry but I had already been sacrificing good quality gaming time with friends to learn how to spin up web servers, what load balancing tools were free and available, and how I could take the tools I was learning and the custom builds (first picture below) that had 4 8gb sticks of ram and 4 250 HDD drives to something more modern and smaller (second picture below) with the same specs. 
 
 * LAST CUSTOMER BUILD BEFORE 2022 
-* * <img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="60%" height="40%">
+* * <img src="/assets/img/blog/dev-env-ansible/2012-build.jpg" width="40%" height="40%">
 * SMALLER BUILD  
-* * <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="60%" height="40%">
+* * <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="30%" height="30%">
 
 Following my minimalistic approach I went from 6 computers running different Linux or Windows based environments, to one 
 small pc with 32gb of ram (expensive at the time) that could produce virtual machines or spin up Vagrant boxes to do my bidding. 
@@ -66,8 +66,8 @@ Here is a changelog of the scripts I have been adding over the years
 
 Here are some images of previous working environments as well 
 * 2016 home lab 
-* * <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="60%" height="40%">
+* * <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="30%" height="30%">
 * 2018 home lab 
-* * <img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="60%" height="40%">
+* * <img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="50%" height="30%">
 * 2018 work lab 
 * * <img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="60%" height="40%">
