@@ -63,11 +63,3 @@ Here is a changelog of the scripts I have been adding over the years
 * [Dev Environment Script- 2018 ](https://github.com/tmeralus/dev-environment-script)
 * [Latest Dev Environment Script + Ansible - 2020](https://github.com/tmeralus/dev-environment-ansible-role)
 
-
-Here are some images of previous working environments as well 
-* 2016 home lab 
-* * <img src="/assets/img/blog/dev-env-ansible/2012-build-2.jpg" width="30%" height="30%">
-* 2018 home lab 
-* * <img src="/assets/img/blog/dev-env-ansible/dev-helm-ct.jpg" width="50%" height="30%">
-* 2018 work lab 
-* * <img src="/assets/img/blog/dev-env-ansible/work_20190801.jpg" width="60%" height="40%">
