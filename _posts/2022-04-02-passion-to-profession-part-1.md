@@ -5,16 +5,14 @@ date:   2022-04-02
 excerpt: "Ted's Passion to Professional Career Story Part 1"  
 ---
 *Knowledge, like air, is vital to life. And like air, no one should be denied it.*
-
-# From Curiosity with Computers to Coding with Comfort
-## This is a small blog entry about my entry into my tech career 
-## Part 1
-
+ 
+## Part 1: From Curiosity with Computers to Coding with Comfort
+*This is a small blog entry about my entry into my tech career*
 I have spent a lot of my tech career learning to create something from nothing and finding solutions
 to technical problems that benefit myself and others. It has been a rocky road and has had its ups and downs but there are moments
 in my career that have made pivotal changes in my career. This is a story of how I went from fixing computers to writing code and how I go to where I am today. I'm an avid fan of scratching my curiosity with computers or tech. I have learned in life (and not from the V from Vendetta film because I haven't seen it yet) that Knowledge is vital to life. For one to adapt in the world you must learn to be like water, to learn to be still and adapt to your surroundings.
 
-#### DOOM DOOM DOOM
+#### DOOM DOOM DOOM 
 My mom, a school teacher, was very firm about what was to be done during school days in my house growing up. On school days (mon-fri or any day me and my brothers had to go to school) going from fixing a windows ME computer to play Doom and Heretic 2 to building pc's and becoming a certified IT professional.
 At 9 years old my house had a family computer which my mom only allowed us to use for school purposes or to gather information from "Ask Jeeves". What she didn't know is that the computer would be the start of a marriage between me and my career. My older brother would come home with new AOL disks which allowed us to go online after hearing (what I thought at first was annoying) the AOL dial up tone and watching the software in the cd run on our computer and grant 'high speed" connections.
 
@@ -155,16 +153,16 @@ This is the first part of my passionate to profession story that I have been wri
 
 A list of new things to discuss in part 2 and other parts of this story are below. If you would like to rush me to write more feel free to message me on Twitter at [@techgameteddy](https://twitter.com/techgameteddy)
 
-- [ ] working for the school district  - RES
-- [ ] working with the water people - GGP
-- [ ] How comfortable is too comfortable - GGP
-- [ ] My First Hackathon - Palm Beach Tech Space
-- [ ] Networking and Not working -Jr Palm Beach Fishing
-- [ ] Small IT building, Big Problems, Bigger Dreams
-- [ ] Takinng a leap of faith in Philly 
-- [ ] Certification and Street Creds
-- [ ] Social Media and Social Distractions
-- [ ] Patience, People, and #BlackTechTwitter 
-- [ ] The sailor that keeps on sailing 
+- working for the school district  - RES
+- working with the water people - GGP
+- How comfortable is too comfortable - GGP
+- My First Hackathon - Palm Beach Tech Space
+- Networking and Not working -Jr Palm Beach Fishing
+- Small IT building, Big Problems, Bigger Dreams
+- Takinng a leap of faith in Philly 
+- Certification and Street Creds
+- Social Media and Social Distractions
+- Patience, People, and #BlackTechTwitter 
+- The sailor that keeps on sailing 
     
  
