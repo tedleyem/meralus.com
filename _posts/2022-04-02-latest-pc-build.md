@@ -26,7 +26,7 @@ with microk8's and more docker images without issue soon enough. So, for anyone 
 | ------------- |:-------------:| 
 | Motherboard       |[ASUS Prime B550M-A/CSM AMD AM4 (3rd Gen Ryzen™)](https://www.amazon.com/dp/B088VVN85S?psc=1&ref=ppx_yo2_dt_b_product_details) |
 | CPU      | [AMD - Ryzen 5 5600G 6-Core - 12-Thread](https://www.bestbuy.com/site/amd-ryzen-5-5600g-6-core-12-thread-4-4-ghz-max-boost-unlocked-desktop-processor/6474407.p?skuId=6474407)|
-| GPU      | ... prices of GPU's right now are too crazy to search for one. |
+| GPU      | XFX - SPEEDSTER SWFT210 AMD Radeon RX 6600 |
 | RAM      | [CORSAIR - Vengeance RGB PRO 16GB (2PK x 8GB) 3200MHz DDR4 C16 DIMM Desktop Memory](https://www.bestbuy.com/site/corsair-vengeance-rgb-pro-16gb-2pk-x-8gb-3200mhz-ddr4-c16-dimm-desktop-memory-black/6256216.p?skuId=6256216) |
 | HDD      | [NVME - Western Digital - Blue SN570 1TB Internal PCIe ](https://www.bestbuy.com/site/wd-blue-sn570-1tb-internal-pcie-gen3-x4-solid-state-drive-for-laptops-desktops/6483709.p?skuId=6483709) |
 | CPU Cooler    | .... I'm just gonna blow on it every time I turn it on    |
