@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2022 Dev Environment with Ansible"
-date:   2022-04-02
+date:   2022-02-02
 excerpt: "The sailor that kept sailing "
 project: true
 img: "blog-headers/monitors.jpg"
