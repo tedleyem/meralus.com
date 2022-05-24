@@ -36,6 +36,24 @@ create wordpress docker compose repo with HIGHEND theme
 
 
 
+
+To solve your problem:
+
+    Install sysfsutils
+    sudo apt install sysfsutils
+
+    Edit /etc/sysfs.conf(as admin), add this line at the end of the file:
+    /module/bluetooth/parameters/disable_ertm=1
+
+    Save changes and restart
+
+I just tested and this works for me, the controller stays connected. I have not installed an emulators yet tho. Will update this post if anything else comes up. Good luck!
+
+
+https://www.reddit.com/r/Ubuntu/comments/g884xe/2004_xbox_one_controller_no_longer_works_over/
+
+
+
 Copying PostgreSQL database to another server
 
 
