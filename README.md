@@ -8,6 +8,7 @@
 $ bundle exec jekyll serve
 
 ### Jekyll Blog Dev steps
+```
  (Setting up Jekyll in a dev env)[https://jekyllrb.com/tutorials/using-jekyll-with-bundler/]
  -- Configure Bundler Install Path
  $ bundle config set --local path 'vendor/bundle'
@@ -18,7 +19,7 @@ $ bundle exec jekyll serve
  $ bundle install
  -- Sping up website on localhost
  $ bundle exec jekyll serve
-
+```
 
 ## Installation:
 
