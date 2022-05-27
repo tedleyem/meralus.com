@@ -91,4 +91,40 @@ Both those commands should be able to clone your desired repos without having to
 This is my current solution. Hopefully gh-cli will provide an option to have multiple accounts to use for home and work. Maybe ill peek around and 
 see how I can contribute, but for now, hope this helps whoever reads it. 
 
+___
+### An alternative option 
+___
+###### Setup dynamic user and email dependant of folders 
 
+There is another option that we can hammer down here as well. Lets say we want to set the user depending on the folder you are in. In the above examples 
+I dont have examples so I will use a few here. 
+```
+personal github profile: 
+ username: teddy
+ email: teddy@meralus.com
+
+Professional github profile: 
+ username: teddy-TWTR
+ email: teddy@twitter.com 
+```
+
+In your ~/.gitconfig, makes sure to remove the [user] block and add the following (change this to fit your needs) :
+```
+      [includeIf "gitdir:/home/teddy/projects/"]
+      	path = .gitconfig-home
+      [includeIf "gitdir:~/home/teddy/work-projects/"]
+      	path = .gitconfig-work
+````
+In your ~/.gitconfig-home, add your personal info:
+```
+      [user]
+      	email = teddy@meralus.com
+      	name = teddy
+````
+ In your ~/.gitconfig-work, add your professional user informations:
+```
+      [user]
+      	email = teddy@twitter.com 
+      	name = teddy-TWTR
+```
+This also helps solve the problem, just in a different approach. 
