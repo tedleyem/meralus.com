@@ -9,8 +9,11 @@ comments: true
 ---
 
 ![Image Title Name](/assets/img/blog/<image-name>)
-{:class="img-responsive"}
-
+# REST
+R. relax your mind 
+E. examine what you've learned
+S. study your surroundings
+T. time to reboot
 
 find and remove files bigger than a specific size and type
 I want to clean up my server from large log files and backups.

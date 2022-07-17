@@ -2,7 +2,7 @@
 layout: post
 title:  From Passion to a Profitable Career
 date:   2022-04-02
-excerpt: "Ted's Passion to Profession Story Part 1"
+excerpt: "Ted's Passion to Profession Story Part 2"
 tags: [wordpress, code, hackathon, teamwork, networking, development, Palm Beach, life]
 comments: true
 ---
