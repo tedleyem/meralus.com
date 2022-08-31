@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "QA Analyst Challenge" 
-excerpt:  "QA Analyst Challenge"  
 date: 2018-01-01 
+excerpt:  "QA Analyst Challenge"  
 --- 
 
 
