@@ -9,17 +9,17 @@ excerpt:  "QA Analyst Challenge"
 ###### WE ONLY GET ONE LIFE, WASTING SOMONE'S TIME IS THE SUBTLEST FORM OF MURDER 
 
 ## If you reading this its never too late
-Here is a guide and a list of steps I have taken to help get you a remote job as a QA Analyst position. My expectation is that you read this entire document, follow the steps at the bottom of the page, message me if you need help, and get you pointed in the right direction. BE WARNED: This will be sprinkled with quotes to help you start. I wrote this out because you expressed interesting in getting a remote job, breaking into the tech industry, or just looking for a career move. I want you to know I am here to help however I can and want you to not feel like its too late or your too old to get help starting something new.
+Here is a guide and a list of steps I have taken to help get you a remote job as a QA Analyst position. My expectation is that you read this entire document, follow the steps at the bottom of the page, message me if you need help, and get you pointed in the right direction. BE WARNED: This will be sprinkled with quotes to help you start. I wrote this out because you expressed interest in getting a remote job, breaking into the tech industry, or just looking for a career move. I want you to know I am here to help however I can. I want you to not feel like its too late or your too old to get help starting something new.
 
 It's never too late - never too late to start over, never too late to be happy. It's never too late. Don't focus on what was taken away. Find something to replace it, and acknowledge the blessing you have.
 
 ### QA ANALYST TERMS AND AGREEMENTS 
 Your reading this because you expressed interest in breaking into the tech field and becoming an QA analyst/engineer. I am here to help.. with some caveats. 
 As the quote at the top of this page explains, time is of the essence and I find my time to be more important than ever now that I have a child to take care of :). 
-With that being said, it is your responsibility to dedicate the time and effort to break into IT industry. The QA analyst position is a great entry level position that can be used to find a remote job and ease yourself into the life of an IT professional. The time it takes for someone to get into the industry all relates to a few factors. 
+With that being said, it is your responsibility to dedicate the time and effort to land a job in the IT industry. The QA analyst position is a great entry level position that can be used to find a remote job and ease yourself into the life of an IT professional. The time it takes for someone to get into the industry all relates to a few factors. 
 * How much time you spend learning new things 
 * How quickly it takes for you to understands things 
-* How long it takes you to ask questions (having me as someone in the industry that can answer the simple and complex questions is like having Lebron James's trainers and nutritionists and is a tool that should be abused at all times)
+* How long it takes you to ask questions (having me as someone in the industry that can answer the simple and complex questions is like having Lebron James's trainers and nutritionists which can be a tool that should be abused at all times)
 
 I have ready success stories of people who dedicated a month and landed a 50k salary job, and stories of people who spent 9 months or 2 years to get to that level. It all comes down to how disciplined you are to study. External factors like family, moving, illness, and other things may slow you down but you should make sure that they don't stop or halt your progress indefinitely. If you ever fall back in your studies try and use this quote to help you along the way. 
 
@@ -88,6 +88,10 @@ use google docs (free) if you have a gmail account or use microsoft word online 
 -[] Create a Github profile 
 -- github is an online place where developer and programmers share code. It has become so popular that companies keep their projects on there. The linkedin and Github accounts are the first steps to building an online presence to showcase your skills and makes it easier for people to look you up. These profiles can be made with ease and will boost your appearance when people search for you on google. Linkedin can also be a tool for applying for jobs, talking to recruiters, or looking up businesses. 
 
+
+TIP: add a picture to your github profile. Adding a picture helps certain people see that you use your profile frequently enough to give it some character. This may or may not help with landing a job but it has been mentioned in meetings that I have been in when it comes to hiring someone. My profile picture in github and the one I use at work gets compliments and helps me stand out of the crowd.
+
+
 ## Step 4: Send me the data 
 Now that we have the beginnings of your online portfolio and you have proven your interest in starting in this direction we can start the real studies. 
 
@@ -117,9 +121,11 @@ Option 2 example: Exam cost $200. Ted will assist in paying $200 (or 100%) or th
 ## Step 5: Begin the real studies  
 Now that you are finally here and have read through this entire thing we will start your studies and I will send you new study material for popular websites to get your certified and on track. You must text me "I am ready to take on the QA challenge and waiting for the next steps". 
 Once you have texted that send an email with the following criteria
+```
 Subject: QA Analyst Studies (first name)
 Body: Hey, i'm ready to get started in my journey to become a QA analyst, help me with step one. 
-
+my github username is <your github profile user name or github url >
+```
 
 # Side Notes 
 I take pride in finding cheap and affordable laptops and have highly considered buying macbooks for $200 so if you feel that you might need a computer that is up to speed for testing and want me to buy you one Im willing to work with you to find the right machine for testing. I have been forced to use macbooks for work because these jobs won't buy me a machine with linux installed on it for stupid security reasons. I thinking finding slighly older macbooks or laptops no one uses anymore are great resources to get everything you need to build your career. I started with a $200 laptop and tried to make a promise to myself that I wont spend $60,000 to build a career. Currently if I had to total all the money I have spent to get the certificates I have gotten and the laptops I have used for studying purposes only I have spent less than $1,000 to gain the knowledge you can get from a 4 year university degree. 
