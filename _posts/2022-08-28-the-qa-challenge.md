@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The QA Analyst Challenge" 
-date: 2018-08-28 
+date: 2022-08-28 
 --- 
 
 

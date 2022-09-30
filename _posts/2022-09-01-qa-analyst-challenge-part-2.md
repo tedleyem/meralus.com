@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "QA Analyst Challenge part 2" 
-date: 2018-01-01 
+date: 2022-09-01 
 excerpt:  "QA Analyst Challenge part 2"  
 --- 
 

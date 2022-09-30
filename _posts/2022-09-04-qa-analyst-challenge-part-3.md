@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "QA Analyst Challenge part 3" 
-date: 2016-09-04
+date: 2022-09-04
 excerpt:  "QA Analyst Challenge part 3"  
 --- 
 ###### Tell me and I forget, teach me and I may remember, involve me and I learn.” 
