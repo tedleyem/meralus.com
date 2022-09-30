@@ -3,8 +3,9 @@ layout: post
 title:  "QA Analyst Challenge part 3" 
 date: 2022-09-04
 excerpt:  "QA Analyst Challenge part 3"  
+tags: [ qa, software, testing, jobs ]
 --- 
-###### Tell me and I forget, teach me and I may remember, involve me and I learn.” 
+## Tell me and I forget, teach me and I may remember, involve me and I learn.” 
 
  You have made it this far, but the previous step will not compare to the next ones. Phase 2 has begun. This phase may be the longest or shortest phase based on your ability to retain information or ask questions. We can go through these steps together and and have video chats to learn together if you find that helpful. 
 
@@ -37,18 +38,18 @@ The 12 factor app goes into detail about all the steps, features, and functions 
 
 Once you have completed this challenge you will need to email me with a similar format listed below: 
 
-```
+` 
 Subject: QA Challenge Phase 2 blog post 1
 Body: Finished my first blog post. Check it out here
 (add your github blog post link to the email)
-```
+`
 
 
 ## Second Blog Post: Tests and Triggers
 Your second blog post will be part of explaining some of the common QA testing variables and principles used in test automation. This blog post will help validate your understanding of common phrases and approaches to QA testing. The videos and links above should help shape your blog. Here is a list of some of the phrases I brought up at the beginning of this challenge and a few more. Your challenge is to write another blog post explaining different types of testing and compare them to a specific field or subject. The [Git vs Github](https://meralus.com/git-github-and-video-games/) blog post that I wrote is an example of how I explained what git is, what Github is, and how it relates to the popular Pokemon Franchise. You can explain these test scenarios below in your blog by explaining how its used in the wild. A good example is how car companies uses these test phrases or how a kitchen/ restaurant may use these tests when adding new items to a menu. Try and make this blog as simple to read and understand as possible. Successful blog are ones that can teach or share something simple enough to explain to a 5 year old or easy enough for someone who understands a concept can comprehend.
 
 
-```
+`
 --- use case testing - testing how and if users will test the website. (will the website be used for the intention it was built?)
 --- unit test - breaking down small units of code to make sure it works 
 --- smoke testing - pulling the application into an iso env to run it and make sure its not smoking 
@@ -57,15 +58,15 @@ of a system with a new feature added.
 ---  End To End testing - e2e - testing all components of the application from front to back to ensure stability  
 Black Box Testing -- checking a systems stability and performance (checking load of a system or if a system might crash)
 
-```
+`
 
 Once you have completed this challenge you will need to email me with a similar format listed below: 
 
-```
+`
 Subject: QA Challenge Phase 2 blog post 2
 Body: Finished my second blog post. Check it out here
 (add your github blog post link to the email)
-```
+`
 
 
 ## Third Blog Post: Keeping it Agile 
@@ -79,7 +80,7 @@ Agile is a structured method of planning that helps organize updates, changes, r
 
 Agile has been broken down into 12 Principles in whats called the [Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/). You can click the link or read them below. 
 
-```
+`
 The following 12 Principles are based on the Agile Manifesto.
 
 1 - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
@@ -105,7 +106,7 @@ The following 12 Principles are based on the Agile Manifesto.
 11 - The best architectures, requirements, and designs emerge from self-organizing teams.
 
 12 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
-```
+`
 
 Your challenge is to write a blog explaining your understanding of the 12 principals of agile and if you have noticed these principals at your current or previous jobs. The beginning of the blog post should explain in one sentence (like I did above) what Agile means to you. This will help validate your understanding of agile. I have found that many recruiters, or managers for that matter, know the definition of some buzz words in the industry but may not know how to explain them. Writing this blog post will allow you to go back and read this before a meeting or point to it in an interview when someone asks so that they can read it themselves and impress them with the fact that you have a website and blogs your are writing. 
 

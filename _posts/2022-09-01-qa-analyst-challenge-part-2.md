@@ -3,6 +3,7 @@ layout: post
 title:  "QA Analyst Challenge part 2" 
 date: 2022-09-01 
 excerpt:  "QA Analyst Challenge part 2"  
+tags: [ qa, software, testing, jobs ]
 --- 
 
 ## Keep your eyes on the goal, and just keep taking the next step towards completing it

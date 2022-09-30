@@ -3,10 +3,8 @@ layout: post
 title:  "QA Analyst Challenge part 4" 
 date: 2022-09-05
 excerpt:  "QA Analyst Challenge part 4"  
+tags: [ qa, software, testing, jobs ]
 --- 
-
-
-# QA Challenge Step 4
 
 ### READ AND REVIEW 
 Here are some more reading and reviewing to help understanding the concepts and history of software quality testing. 
@@ -23,13 +21,13 @@ Now it's time for the real work to begin. Now that we have gotten into dribbling
 
 
 ### Learn About CYPRESS 
-* COURSERA | [Cypress UI automation testing for absolute beginners](https://www.coursera.org/projects/cypress-ui-automation-testing-for-absolute-beginners?action=enroll)
+* COURSERA [Cypress UI automation testing for absolute beginners](https://www.coursera.org/projects/cypress-ui-automation-testing-for-absolute-beginners?action=enroll)
 
-* UDEMY | [Cypress end2end course ](https://www.udemy.com/course/e2e-cypress/)
+* UDEMY [Cypress end2end course ](https://www.udemy.com/course/e2e-cypress/)
 
-* UDEMY | [Test Automation for Beginners $20 ](https://www.udemy.com/course/test-automation-for-beginners/)
+* UDEMY [Test Automation for Beginners $20 ](https://www.udemy.com/course/test-automation-for-beginners/)
 
-* UDEMY | [Selenium WebDriver with Docker, Jenkins & AWS](https://www.udemy.com/course/selenium-webdriver-with-docker/)
+* UDEMY [Selenium WebDriver with Docker, Jenkins & AWS](https://www.udemy.com/course/selenium-webdriver-with-docker/)
 
 
 ### Youtube Playlist
@@ -59,11 +57,11 @@ Most IT related jobs will ask scenario based questions. Typically these are open
 * How do you handle client escalations?
 * How do you ensure there will be no billing loss in your project?
 
-#####Practice answering competency-based questions online. 
+##### Practice answering competency-based questions online. 
 *a quick google search can help find some of those*
-#####Brace yourself for technical interview questions. 
+##### Brace yourself for technical interview questions. 
 *the questions answered in the courses above should help with basic competency*
-#####Remember, soft skills are key.
+##### Remember, soft skills are key.
 *Be honest, be kind, be respectful. Many interviewers will ask vague questions or question they want you to find a solution for. These questions are not meant to attack you, take your time and be honest with your answers. They can smell fear and will appreciate your honesty.*
 
 

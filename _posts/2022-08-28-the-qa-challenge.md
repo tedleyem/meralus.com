@@ -2,6 +2,7 @@
 layout: post
 title:  "The QA Analyst Challenge" 
 date: 2022-08-28 
+tags: [ qa, software, testing, jobs ]
 --- 
 
 
