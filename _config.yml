@@ -4,18 +4,18 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: techgameteddy #if your site has a twitter account, enter it here
+site-twitter: techdadteddy #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Tedley Meralus # add your name
 author-img: tedley-bw-cartoon-white-square.png # add your photo
-about-author: Linux Engineer, Writer, Twin. Always learning and documenting my journey as I go. # add description
-social-twitter: techgameteddy # add your Twitter handle
+about-author: Dad, Linux Engineer, Twin. Always learning and documenting my journey as I go. # add description
+social-twitter: techdadteddy # add your Twitter handle
 #social-facebook: tmeralus # add your Facebook handle
 social-github: tmeralus # add your Github handle
 social-linkedin: tmeralus # add your Linkedin handle
-social-studio: 1019studios # add your Email address
-social-email: # add your Email address
+  #social-studio: 1019studios # add your Email address
+  #social-email: # add your Email address
 
 # Disqus
 discus-identifier: techgameteddy # add your discus identifier
