@@ -1,10 +1,11 @@
-## Meralus.com Blogging and Landing Page
+## Ted's Time Capsule and Blog site
+
 
 ### Inspired by
 (Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
 
 
-### For Testing site Only
+### For Testing the site locally
 $ bundle exec jekyll serve
 
 ### Jekyll Blog Dev steps
@@ -19,11 +20,8 @@ $ bundle exec jekyll serve
  $ bundle install
  -- Sping up website on localhost
  $ bundle exec jekyll serve
-```
-
-## Installation:
-
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+ 
+Fork the ``template`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
 
 ## License
 
