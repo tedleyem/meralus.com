@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Precjts and Practicing Boundaries"
+title:  "Projects and Practicing Boundaries"
 date:   2023-02-10
 excerpt: "2023 project list"
 img: "blog-headers/PNG-10.png" 
