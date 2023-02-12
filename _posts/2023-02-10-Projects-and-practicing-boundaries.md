@@ -27,18 +27,18 @@ create small steps to "creating boundaries" and focusing on myself.
 If you find any of these future projects useful or helpful in any way feel free 
 to let me know via twitter @techdadteddy or [buy me some coffee](https://www.buymeacoffee.com/tmeralus). Anything is appreciated. 
 
-### Project List  | Technology 
-- Projects-and-practicing-boundaries | Blog 
-- Project-Deploy-a-Wordpress-Website-on-AWS 
-- Project-Terraform-ECS-Deploy-a-Wordpress-Website-on-AWS
-- Project-Serverless-Web-Application-on-AWS | Terraform
-- Project-Nba-react-app | ReactJS
-- Project-Digital-office | ReactJS
-- Project-Postgres-provisioning-with-ansible | Ansible
-- Project-Wazuh-siem-protection-in-2023 | Ansible, Docker
-- Project-Wordpress-provisioning-ansible-questionnaire | Ansible
-- Project-Board-house-rules | Flask, Python
-- Project-Card-house-rules | Flask, Python
-- Project-gh-cli-profile-switcher | Bash 
-- Vagrant Ansible setup | Ansible, Vagrant 
+### Project List:  Technology 
+- Projects-and-practicing-boundaries: -- 02/12/23
+- Project-Deploy-a-Wordpress-Website-on-AWS:   
+- Project-Terraform-ECS-Deploy-a-Wordpress-Website-on-AWS: 
+- Project-Serverless-Web-Application-on-AWS:  Terraform
+- Project-Nba-react-app:  ReactJS
+- Project-Digital-office:  ReactJS
+- Project-Postgres-provisioning-with-ansible:  Ansible
+- Project-Wazuh-siem-protection-in-2023:  Ansible, Docker
+- Project-Wordpress-ansible-questionnaire: Ansible, Wordpress
+- Project-Board-house-rules:  Flask, Python
+- Project-Card-house-rules:  Flask, Python
+- Project-gh-cli-profile-switcher:  Bash 
+- Vagrant Ansible setup:  Ansible, Vagrant 
 - 
