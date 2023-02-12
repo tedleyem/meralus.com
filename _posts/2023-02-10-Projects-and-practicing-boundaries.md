@@ -21,7 +21,7 @@ Some of these projects are things I have already started, but never finished. Mo
 
 ##### Intention 
 My intent for these projects is to have clear descriptions of what they are, what they do, how to use these projects for your own use, and a great README.md file with all 
-that information in each of these. This list will be a growing list and will be updated with links to each project once they are either completed, or at a point thta is presentable. Writing this blog in itself is helping me fight imposter syndrome and 
+that information in each of these. This list will be a growing list and will be updated with links to each project once they are either completed, or at a point that is presentable. Writing this blog in itself is helping me fight imposter syndrome and 
 create small steps to "creating boundaries" and focusing on myself. 
 
 If you find any of these future projects useful or helpful in any way feel free 
