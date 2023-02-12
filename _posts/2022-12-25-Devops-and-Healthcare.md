@@ -3,7 +3,7 @@ layout: post
 title:  "Devops and Healthcare"
 date:   2022-12-25
 excerpt: "paint a picture of the DevOps philosophies in the Healthcare industry"
-img: "blog-headers/healthcareDevOps.jpg" 
+img: "blog-headers/healthcareDevOps.jpeg" 
 project: true  
 ---
 

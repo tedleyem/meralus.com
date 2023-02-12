@@ -3,6 +3,7 @@ layout: post
 title:  "QA Analyst Challenge part 4" 
 date: 2022-09-05
 excerpt:  "QA Analyst Challenge part 4"  
+img: "blog-headers/qa-4.jpeg" 
 tags: [ qa, software, testing, jobs ]
 --- 
 
