@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "NEW TITLE"
-date:   2022-02-01
+title:  "Precjts and Practicing Boundaries"
+date:   2023-02-10
 excerpt: "lorem ipsum"
 img: "blog-headers/vr-movie.jpg" 
 project: true  
 ---
 
+If this year of parenting and navigating through depression has taught me anything its that my time, more specifically my free time, needs 
+to be purposeful. 
 
 
 ### Project List  
