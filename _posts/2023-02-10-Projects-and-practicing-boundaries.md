@@ -29,16 +29,16 @@ to let me know via twitter @techdadteddy or [buy me some coffee](https://www.buy
 
 ### Project List:  Technology 
 - Projects-and-practicing-boundaries: -- 02/12/23
-- Project-Deploy-a-Wordpress-Website-on-AWS:   
-- Project-Terraform-ECS-Deploy-a-Wordpress-Website-on-AWS: 
+- Project-Wordpress-in-Docker-Compose: -- 04/05/23
+- Project-Terraform-ECS-Deploy-a-Wordpress-Website-on-AWS: Packer 
 - Project-Serverless-Web-Application-on-AWS:  Terraform
-- Project-Nba-react-app:  ReactJS
-- Project-Digital-office:  ReactJS
+- Vagrant Ansible setup:  Ansible, Vagrant 
 - Project-Postgres-provisioning-with-ansible:  Ansible
-- Project-Wazuh-siem-protection-in-2023:  Ansible, Docker
+- Project-Wazuh-siem-protection-in-2023:  Docker, kubernetes
 - Project-Wordpress-ansible-questionnaire: Ansible, Wordpress
+- Project-gh-cli-profile-switcher:  Bash 
+- Project-Nba-react-app:  ReactJS
+- Project-Digital-office:  Python, Flask,
 - Project-Board-house-rules:  Flask, Python
 - Project-Card-house-rules:  Flask, Python
-- Project-gh-cli-profile-switcher:  Bash 
-- Vagrant Ansible setup:  Ansible, Vagrant 
-- 
+
