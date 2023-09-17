@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ansible testing with Vagrant" 
-date:   2023-04-022
+date:   2023-04-22
 excerpt: "2023 project list"
 img: "blog-headers/ansible-and-Vagrant.png" 
 project: true  
