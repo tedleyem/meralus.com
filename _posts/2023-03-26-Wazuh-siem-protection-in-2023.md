@@ -50,7 +50,7 @@ More blogs about all of wazuh benefits will be provided.
 # Company Benefits of Wazuh
 For most companies looking for a list of these features, wazuh provides all of them
 for F-R-E-E.
-
+```
 Endpoint Security
     Configuration Assessment
     Malware Detection
@@ -70,9 +70,11 @@ Cloud Security
     Container Security
     Posture Management
     Workload Protection
-
+```
 
 Keep all your data up to date with the latest security standards, analytics, and exploits
 can be costly. Wazuh helps limit that cost with your application/operations. From security
 log analysis to vulnerability detection, having an all in one solution to aggregate your data
 sounds like a win win. Maybe [Caesars Palace](https://www.bloomberg.com/news/articles/2023-09-13/caesars-entertainment-paid-millions-in-ransom-in-recent-attack) could have saved millions if they had a solution like this. I am in no way a paid partner of Wazuh, nor do I have any affliation with them but when I come across a solution that I have integrated into a companies architecture I like to talk about it. So check it and and [see for yourself](https://wazuh.com/platform/siem/).
+
+In 2023, the year of layoffs, budget cuts, hacks, and vulnerabilities, I think Wazuh is a solid solution!
