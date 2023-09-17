@@ -7,9 +7,8 @@ img: "blog-headers/ansible-and-Vagrant.png"
 project: true  
 ---
  
- https://blog.keyboardinterrupt.com/testing-ansible-with-vagrant/
  
- 
+
 # Using Vagrant for Ansible testing
 Ansible has been updated so frequently that using tools like Vagrant for testing may have been deprecrated for more native approaches with Molecule. I could be wrong but feel free to read this article and try Vagrant as a solution. My goal here is to describe why I use Vagrant for testing new ansible roles and how you can make your development environment a bit easier by merging the two technologies. 
 
