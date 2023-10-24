@@ -30,12 +30,15 @@ to let me know via twitter @techdadteddy or [buy me some coffee](https://www.buy
 ### Project List:  Technology 
 - Projects-and-practicing-boundaries: -- 02/12/23
 - Project-Wordpress-in-Docker-Compose: -- 04/05/23
-- Project-Terraform-ECS-Deploy-a-Wordpress-Website-on-AWS: Packer 
-- Project-Serverless-Web-Application-on-AWS:  Terraform
-- Vagrant Ansible setup:  Ansible, Vagrant 
+- Vagrant Ansible setup:  Ansible, Vagrant -- 04/22/23
+- Project-Terraform-Deploy-Jenkins-to-AWS: Jenkins, Terraform
+- Project-Terraform-ECS-Deploy-App-on-AWS: Wordpress, Packer 
+- Project-Serverless-Web-Application-on-AWS: Grafana, Terraform
 - Project-Postgres-provisioning-with-ansible:  Ansible
 - Project-Wazuh-siem-protection-in-2023:  Docker, kubernetes
+- Project-grafana-monitoring-in-2023:  Docker, kubernetes
 - Project-Wordpress-ansible-questionnaire: Ansible, Wordpress
+- Project-CI-CD-Nagios-Integration: Ansible, Nagios,
 - Project-gh-cli-profile-switcher:  Bash 
 - Project-Nba-react-app:  ReactJS
 - Project-Digital-office:  Python, Flask,
