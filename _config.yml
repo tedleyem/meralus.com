@@ -9,13 +9,17 @@ site-twitter: techdadteddy #if your site has a twitter account, enter it here
 # Author Settings
 author: Tedley Meralus # add your name
 author-img: tedley-bw-cartoon-white-square.png # add your photo
-about-author: Dad, Linux Engineer, Twin. Always learning and documenting my journey as I go. # add description
+about-author: The objective of being human is to grow, so im documenting my journey as I go. # add description
 social-twitter: techdadteddy # add your Twitter handle
 #social-facebook: tmeralus # add your Facebook handle
 social-github: tedleyem # add your Github handle
 social-linkedin: tmeralus # add your Linkedin handle
-  #social-studio: 1019studios # add your Email address
-  #social-email: # add your Email address
+project-1 : whovisions
+project-2 : superdave
+project-3 : ielectro
+project-4 : somediceguys
+
+#social-email: # add your Email address
 
 # Disqus
 discus-identifier: techgameteddy # add your discus identifier
