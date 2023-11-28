@@ -7,7 +7,7 @@ project: true
 img: "blog-headers/devops-is-burning.png"
 ---
 
-# Reflecting
+##### Reflecting
 Over the past few years I have noticed and learned a few things as a Devops Engineer. I have worked for smaller obscure companies, robust and resilient companies, and some of the biggest retail companies in the US and found a few common foundational problems show up in all of them. The DevOps and Cloud Engineering feild typically has a mix of these cultural problems listed below and I want to take a little time to share my experience as I grow through my journey. Reading through forums, social media threads, and other blogs sites I have noticed that there are hundreds of others that have been [feeling the same way](https://www.reddit.com/r/devops/comments/ri13en/what_are_the_top_3_problems_you_face_technically/?share_id=tcisAso0L0n9mjCO8hWo_&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1). This may come off as a rant, but its not. I see it as an understanding of the feild and the work, and documenting some of my thoughts on it so I can release it from my mind and not let it weigh me down or deter me from burnout.
 
 <u>Current Problematic Trends in Devops</u>
@@ -70,7 +70,7 @@ There are a lot of [advantages to agile](https://builtin.com/agile/benefits-of-a
 
 
 
-# Avoiding the pitfalls of Agile
+##### Avoiding the pitfalls of Agile
 In conclusion, from the outside looking in, Agile offers promising results and promotes faster project completetion, an efficient development process, and visibility on what teams are working on. But at the end of the day, its within the teams willingness to adapt, be flexible, and collaborate with others that make Agile work. As someone who has been in the feild now for a few years I can easily adapt to a system and use my set of skills in any environment to help any team along their SDLC, but, I still wonder. What do you do when a team is burnt out from looking at roadmaps, fighting with developers on fixes and features, and growning at the thought of daily stand up meetings that distract from their workflow?
 
 What will be the new framework of management that will come along to resolve all this or help provoke a culture of Devops,Cloud, or Software engineers that can collaborate on projects, manage infrastructure, document processes and changes, and clean up backlogs, and not suffer from burnout? Only time will tell.
