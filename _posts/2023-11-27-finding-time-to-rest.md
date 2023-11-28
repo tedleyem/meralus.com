@@ -19,7 +19,7 @@ I have decided to find out what that means to me and where I can find the fun an
 developers to use than the mysql ndb clusters that existed. Stuff like that was fun and exciting to me. These days when im learning something new like creating modules in terraform or updating python scripts to work as AWS lambda functions I feel like im RYU with an exhausted drive gauge trying to wait to recover and find the fun. Cloud engineering is a great place to be and my thoughts on Devops and the current culture and state of Devops and Cloud engineering can be read in a future blog post, but for now I need some rest.
 
 ##### In conclusion,
-I am still looking to leverage my skills to grow my knowledge and find the right place for me. Im still actively looking to find a place where Devops Practices are being used properly or where I can share some insight and help teams follow good cultural practices to keep the chains of the SDLC smooth and oiled up like a new car. However, I am also learning in my personal time to create a time for REST and this is how I define it.
+I am still looking to leverage my skills to grow my knowledge and find the right place for me. I didn't get his far to quit now. Im still actively looking to find a place where Devops Practices are being used properly or where I can share some insight and help teams follow good cultural practices to keep the chains of the SDLC smooth and oiled up like a new car. However, I am also learning in my personal time to create a time for REST and this is how I define it.
 
 * R. relax your mind
 * E. examine what you've learned
