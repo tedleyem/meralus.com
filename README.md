@@ -5,6 +5,10 @@
 (Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
 
 
+### Deploying to github pages
+The steps were followed to allow github actions to automatically update
+this blog when you push to the main branch. No local actions are needed.
+
 ### For Testing the site locally
 $ bundle exec jekyll serve
 
