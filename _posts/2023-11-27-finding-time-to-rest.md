@@ -4,9 +4,7 @@ title:  "Finding time to rest"
 date:   2023-11-27
 excerpt: "My thoughts on the Devops world and its current state"
 project: true
-tags: [add, tags, here,]
 img: "blog-headers/burn-out.jpg"
-comments: true
 ---
 
 # TAKING TIME FOR REST

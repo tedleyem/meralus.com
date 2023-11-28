@@ -3,8 +3,8 @@ layout: post
 title:  "Deploy wordpress on AWS with Terraform"
 date:   2023-11-26
 excerpt: "a very simple wordpress project for aws"
-img: "blog-headers/wordpress-terraform-aws.png"
 project: true
+img: "blog-headers/wordpress-terraform-aws.png"
 ---
 
 

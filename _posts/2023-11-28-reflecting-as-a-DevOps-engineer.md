@@ -5,7 +5,6 @@ date:   2023-11-28
 excerpt: "My thoughts on the Devops world and its current state"
 project: true
 img: "blog-headers/devops-is-burning.png"
-comments: true
 ---
 
 # Reflecting

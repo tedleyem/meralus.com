@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Cli Alias Dump"
-date:   2017-10-04
+title: "Cli Alias Dump"
+date: 2017-10-04
 excerpt: "a few shortcuts and aliases that I find helpful"
 project: true
-tags: [add, tags, here,]
 img: "blog-headers/tux-swiss-army-knife.png"
 comments: true
 ---
