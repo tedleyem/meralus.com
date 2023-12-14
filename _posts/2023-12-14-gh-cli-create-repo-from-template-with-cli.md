@@ -3,7 +3,7 @@ layout: post
 title:  "Creating Github repos with CLI"
 date:   2023-12-14
 excerpt: "gh cli commands"
-img: "blog-headers/xxx"
+img: "blog-headers/gh-cli.png"
 project: true  
 ---
 
