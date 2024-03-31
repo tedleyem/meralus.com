@@ -28,7 +28,9 @@ I personally call these time "being in project mode". It's something I do to cle
 
 
 #Temperature Project 
+[My Temp conversion project in C snd Python](https://github.com/tedleyem/blog-temp-check) is a simple temperature conversion application that will convert temperatures in Celsius or Fahrenheit (or Kelvin) and convert them. I am a bit more proficient in Python so the python script can be read easily and has inputs that allow you to write out a number in a specific temperature and have it be converted for you. The C based project only takes the temperatures from 0-300 in interactions of 20 and prints out the difference in Celsius. So for this example, the two projects don't do a 1:1 match and produce the same results, but they will soon. Reading the C programming book ha soepned by eyes on how my bash scripts and Python scripts have been written. I now have an understanding of why C is so impressive and why it became a foundational blueprint for other languages (if you want to call it that). 
 
+I think for now this is a good step and solid intro to learning C and a good step to kernel development. I have been reading more and more through the [kernel newbies website](https://kernelnewbies.org/) and think that as long as I get how C works and start understanding memory allocation and pointers I should be able to start submitting clean up patches and note-worthy bug fixes to drivers or kernel code by the end of the year. It's ambitious but I'll be able to look back at this, and this little project, and be proud that I started. Thanks for reading. 
 
 
 
