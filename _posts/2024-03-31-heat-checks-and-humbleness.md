@@ -3,7 +3,7 @@ layout: post
 title: "Grow through what you go through"
 date:   2024-03-31
 excerpt: "Heat Checks and growing"
-img: "blog-headers/temp-check.jpg" 
+img: "blog-headers/temp-converter.png" 
 project: true  
 ---
 
