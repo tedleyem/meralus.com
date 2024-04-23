@@ -14,32 +14,16 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Projects</h3>
-      <ul>
-        {% if site.project-1 %}
-          <li class="project"><a href="https://whovisionspresents.com/" target="_blank"><i class="fa fa-camera"></i></a></li>
-        {% else %}
-          <li class="project"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.project-2 %}
-          <li class="project"><a href="https://superdaveforhire.com/" target="_blank"><i class="fa fa-car"></i></a></li>
-        {% else %}
-          <li class="project"><a href="https://superdaveforhire.com/" target="_blank"><i class="fa fa-car" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.project-3 %}
-          <li class="project"><a href="https://ielectrosolutions.com/" target="_blank"><i class="fa fa-bolt"></i></a></li>
-        {% else %}
-          <li class="project"><a href="https://ielectrosolutions.com/" target="_blank"><i class="fa fa-bolt" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.project-4 %}
-          <li class="project"><a href="https://linktr.ee/somediceguys" target="_blank"><i class="fa fa-podcast"></i></a></li>
-        {% else %}
-          <li class="project"><a href="https://linktr.ee/somediceguys" target="_blank"><i class="fa fa-podcast" aria-hidden="true"></i></a></li>
-        {% endif %}
-
-      </ul>
       <h3 class="contact-title">Contact me</h3>
       <ul>
+        {% if site.home-link %}
+          <li><a href="https://{{ site.home-link }}" target="_blank"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://{{ site.home-link }}" target="_blank"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-facebook %}
+          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        {% else %}
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% else %}
