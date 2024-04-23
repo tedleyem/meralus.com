@@ -37,7 +37,7 @@ Create A Jekyll Scaffold
  $ bundle install
 ```
 
-Sping up website on localhost
+Spring up website on localhost
 ```
  $ bundle exec jekyll serve
 ```
