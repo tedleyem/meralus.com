@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NEW TITLE"
-date:   2022-02-01
+date:   2024-02-01
 excerpt: "lorem ipsum"
 img: "blog-headers/vr-movie.jpg" 
 project: true  
