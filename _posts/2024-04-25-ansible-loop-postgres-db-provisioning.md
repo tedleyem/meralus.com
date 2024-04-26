@@ -29,10 +29,26 @@ the specifics of the application, but I can't. However, I decided to rebuild the
 
 ### Some of these key features are 
 * Create a questionnaire and use the responses as variables to configure a database
-* Provision a database with docker or on a remote machine 
-* 
-* 
-* 
+* Provision a database with or without docker with just a variable 
+* draft up a quick way to spin up postgres
+* utilize ansible to create a scripted way to provision the backend of an application
+
+I would like to note that this was a project was very specific and probably not a use case 
+that would  warrant many forks, likes, or pull requests. However, it was fun, it solved a problem, and it got me some recognition at work. All things that make working with ansible and Linux fun at work. 
+
+Full project source code can be [found here](https://github.com/tedleyem/ansible-role-postgresql-blog). Updates to this project will happen over time. This week has been a busy week with work and scripting so I'm sure some fine tuning to these yaml files will be needed in the future. 
+
+
+---
+# CREDITS 
+Much credit goes out to Jeff. The role was inspired by Jeff Geerling's [postgresl role](https://github.com/geerlingguy/ansible-role-postgresql). I made the necessary tweaks 
+to express the small points made in the blog. Sharing the example for fun.
+
+More information on the ansible modules used can be found here. 
+
+* [Ansible interactive input prompts](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_prompts.html)
+* [Ansible set facts module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/set_fact_module.html)
+* [Jinja 2 templating](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_templating.html)
 
 
 
