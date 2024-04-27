@@ -9,12 +9,16 @@ site-twitter: techdadteddy #if your site has a twitter account, enter it here
 # Author Settings
 author: Tedley Meralus # add your name
 author-img: moneyshot.png # add your photo
-about-author: I am a Linux Engineer, focused on software development and documenting my journey as I go. # add description
+about-author: An investment in knowledge pays the best interest.
+#about-author: I', currently focused on open source development and documenting my journey as I go. # add description
+#about-author: I provide freelance services for open source software, web development, linux based troubleshooting, cloud and IT consulting, and more. Documenting my journey as I go. # add description
 social-twitter: techdadteddy # add your Twitter handle
 #social-facebook: tmeralus # add your Facebook handle
 social-github: tedleyem # add your Github handle
 social-linkedin: tmeralus # add your Linkedin handle
 home-link: meralus.com 
+project-link: links.meralus.com
+project-tech: tedley.square.site
 
 social-email: tmeralus@gmail.com # add your Email address
 
@@ -45,7 +49,6 @@ relative_links:
     - directory
     - file.md
 
-#exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 exclude: 
   - node_modules
   - gulpfile.js
