@@ -39,7 +39,7 @@ Create A Jekyll Scaffold
 
 Spring up website on localhost
 ```
- $ bundle exec jekyll serve
+ $ bundle exec jekyll serve --livereload
 ```
 
 
@@ -51,3 +51,7 @@ Fork the ``template`` branch and follow the [Jekyll Installation Documentation](
 ## License
 
 GNU General Public License v3.0
+
+## Resources
+ [Relative Links plugin](https://github.com/benbalter/jekyll-relative-links)
+ 

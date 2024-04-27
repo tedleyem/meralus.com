@@ -8,7 +8,7 @@ site-twitter: techdadteddy #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Tedley Meralus # add your name
-author-img: tedley-bw-cartoon-white-square.png # add your photo
+author-img: moneyshot.png # add your photo
 about-author: I am a Linux Engineer, focused on software development and documenting my journey as I go. # add description
 social-twitter: techdadteddy # add your Twitter handle
 #social-facebook: tmeralus # add your Facebook handle
@@ -31,8 +31,24 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-feed 
+  - jekyll-relative-links
 
 paginate: 8
 paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+relative_links:
+  enabled:     false
+  collections: false
+  
+relative_links:
+  exclude:
+    - directory
+    - file.md
+
+#exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: 
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
+  - vendor 
