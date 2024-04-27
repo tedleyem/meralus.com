@@ -9,11 +9,21 @@ layout: default
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
+      <button name="button"> Linux Engineer</button>
       <p>{{site.about-author}}</p>
     </div>
-  </header> <!-- End Header -->
+  </header> <!-- End Header -->  
   <footer>
     <section class="contact">
+      <h3 class="contact-title">Projects</h3>
+      <ul>  
+        {% if site.project-link %}
+          <li class="email"><a href="https://{{ site.project-link }}"><i class="fa fa-sitemap"></i> Web</a></li>
+        {% endif %}
+        {% if site.project-tech %}
+          <li class="email"><a href="https://{{ site.project-tech }}"><i class="fa fa-laptop"></i> Services</a></li>
+        {% endif %}
+      </ul>
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.home-link %}
@@ -40,7 +50,6 @@ layout: default
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% endif %}
-
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">

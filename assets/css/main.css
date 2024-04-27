@@ -24,6 +24,29 @@ body {
   margin: 0;
 }
 
+.project-name {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  margin: 0 0 10px;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase; 
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+.project-link {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  margin: 0 0 10px;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase; 
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -84,7 +107,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -98,6 +121,8 @@ pre {
  */
 a {
   background-color: transparent;
+  /* CHANGED HYPERLINK COLOR */
+  color: #d3c9c9;
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
@@ -137,10 +162,17 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
+code {
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  padding: 1rem 2rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+},
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -226,7 +258,17 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
+button {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  background: #4dba87; 
+  color: var(--light-bg);
+  font-size: .8rem;
+  font-weight: 600;
+  padding: .5rem;
+  color: #25262a;
+  border-radius: 4px;
+  text-transform: capitalize
+},
 input,
 optgroup,
 select,
@@ -437,14 +479,14 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #D3D3D3;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
 }
 
 .highlighter-rouge {
-  color: #ce887b;
+  color: #000;
   font-weight: 400;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
@@ -463,7 +505,7 @@ template {
 /* Comment */
 .highlight .err {
   color: #a00;
-  background-color: #faa;
+  background-color: rgb(26, 22, 22);
 }
 
 /* Error */
@@ -773,9 +815,10 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Mono', source-code-pro;
+/*  font-family: 'Lato', sans-serif; */
   color: #515151;
-  background-color: #fbfbfb;
+  background-color: #25262a;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -827,15 +870,15 @@ pre code {
 }
 
 table {
-  border: 1px solid #aaa;
-  background-color: #eee;
+  border: 1px solid #777;
+  background-color: #2d2e32;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
 
 table td, table.blueTable th {
-  border: 1px solid #aaa;
+  border: 1px solid #2d2e32;
   padding: 3px 2px;
 }
 
@@ -844,11 +887,11 @@ table tbody td {
 }
 
 table tr:nth-child(even) {
-  background: #adbecc;
+  background: #2d2e32;
 }
 
 table thead {
-  background: #a9c4d1;
+  background: #777;
   background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
   background: -webkit-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   background: -o-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
@@ -859,8 +902,8 @@ table thead {
 table thead th {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
-  border-left: 1px solid #d0e4f5;
+  color: #000;
+  border-left: 1px solid #777;
 }
 
 table thead th:first-child {
@@ -888,8 +931,9 @@ table tfoot td {
   position: relative;
 }
 
+/* Things changes the background color of the pages of posts */
 .post, .article-page {
-  background-color: #fff;
+  background-color: #2d2e32;
 }
 
 ::-moz-selection {
@@ -933,7 +977,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #2d2e32;
 }
 
 .about {
@@ -948,7 +992,6 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
 }
 
 .about img {
@@ -969,13 +1012,13 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -996,8 +1039,18 @@ table tfoot td {
 }
 
 .about p {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   font-size: 16px;
   margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.about p-inline {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: #ffffff;
 }
 
 .content-box {
@@ -1023,7 +1076,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #fff;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1078,7 +1131,7 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: #fff;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1088,7 +1141,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #423f3f;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1098,6 +1151,7 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
+  color: #ffffff;
 }
 
 .post {
@@ -1153,6 +1207,7 @@ footer .copyright {
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
+  color: #fff;
 }
 
 .post .post-content .post-title {
@@ -1161,20 +1216,22 @@ footer .copyright {
   font-weight: 400;
 }
 
+/* This changes post title text color */
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   text-decoration: none;
-  color: #263959;
+  color: #fff;
 }
 
 .post .post-content p {
   margin-top: 0;
+  color: #fff;
 }
 
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: #515151;
+  color: #888282;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   -o-transition: transform .2s;
@@ -1197,6 +1254,8 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+  /* Change text color in blog text */
+  color: #fff;
 }
 
 .header-page {
@@ -1211,7 +1270,7 @@ a.newer-posts:hover {
 }
 
 .header-page .page-date {
-  color: #a0a0a0;
+  color: #fff;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
@@ -1262,7 +1321,7 @@ a.newer-posts:hover {
           flex-wrap: wrap;
   padding-bottom: 30px;
   margin: 30px 0;
-  border-bottom: 1px solid #a0a0a0;
+  border-bottom: 1px solid #fff;
 }
 
 .page-footer .page-share {
@@ -1273,7 +1332,7 @@ a.newer-posts:hover {
 .page-footer .page-share a {
   display: inline-block;
   text-decoration: none;
-  background-color: #fafafa;
+  background-color: #ecf0f1;
   border: 1px solid #ecf0f1;
   padding: 5px 10px;
   margin-left: 5px;
@@ -1299,7 +1358,7 @@ a.newer-posts:hover {
   margin-left: 5px;
   color: #263959;
   text-transform: uppercase;
-  border: 1px solid #263959;
+  border: 1px solid #fff;
 }
 
 .page-footer .page-tag a:hover {
@@ -1408,7 +1467,7 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #25262a;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
