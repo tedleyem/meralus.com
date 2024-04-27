@@ -267,7 +267,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  jekyll-avatar
   jekyll-feed
   jekyll-paginate
   jekyll-relative-links
