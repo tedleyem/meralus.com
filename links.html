@@ -52,9 +52,10 @@ layout: main
                 <div class="col is-center">
                     {% endif %}
                     <button class="button button2"> 
-                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">{% if item.icon %}<span class="iconify-inline"
-                            data-icon="{{ item.icon }}"></span>{% endif %}{{ item.title }}
-                        {% if item.tag %}<span class="tag is-small bd-success text-success">{{ item.tag }}</span>
+                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">{% if item.icon %} <span class="iconify-inline"
+                            data-icon="{{ item.icon }}"></span>{% endif %}
+                            {{ item.title }}
+                        {% if item.tag %}<span class="tag is-small bd-success text-success"> {{ item.tag }}</span>
                         {%endif %}
                         </a>
                     </button>
