@@ -18,28 +18,28 @@ $ bundle exec jekyll serve
 
 Install Ruby
 ```
- $ apt install ruby ruby-bundler
+$ apt install ruby ruby-bundler
 ```
 
 Configure Bundler Install Path
 ```
- $ bundle config set --local path 'vendor/bundle'
+$ bundle config set --local path 'vendor/bundle'
 ```
 
 Add Jekyll
 ```
- $ bundle add jekyll
+$ bundle add jekyll
 ```
 
 Create A Jekyll Scaffold
 ```
- $ bundle exec jekyll new --force --skip-bundle .
- $ bundle install
+$ bundle exec jekyll new --force --skip-bundle .
+$ bundle install
 ```
 
 Spring up website on localhost
 ```
- $ bundle exec jekyll serve --livereload
+$ bundle exec jekyll serve --livereload
 ```
 
 
