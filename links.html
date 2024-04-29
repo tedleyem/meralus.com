@@ -7,8 +7,10 @@ layout: main
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.links-tagline }} - {{ site.links-header }}</title>
-    <link rel="shortcut icon" href="{{ site.links-favicon }}" type="image/x-icon">
+    <!--
+        <title>{{ site.links-tagline }} - {{ site.links-header }}</title>
+    -->
+        <link rel="shortcut icon" href="{{ site.links-favicon }}" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
     <meta name="description" content="{{ site.links-description }}">
@@ -42,6 +44,7 @@ layout: main
         <!-- Link Buttons -->
     </div> 
     <main>
+        <div class="top is-center is-vertical-align">
         {% for category in site.data.links %}
         <h5 class="project-link">{{ category.category }}</h5>
         {% for item in category.items %}
@@ -51,8 +54,8 @@ layout: main
                 {% else %}
                 <div class="col is-center">
                     {% endif %}
-                    <button class="button button2"> 
-                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">{% if item.icon %} <span class="iconify-inline"
+                    <button class="button2"> 
+                        <a href="{{ item.url }}" target="_blank">{% if item.icon %} <span class="iconify-inline"
                             data-icon="{{ item.icon }}"></span>{% endif %}
                             {{ item.title }}
                         {% if item.tag %}<span class="tag is-small bd-success text-success"> {{ item.tag }}</span>
@@ -64,6 +67,7 @@ layout: main
             </div>
             {% endfor %}
             {% endfor %}
+        </div>
     </main>
 </body>
 

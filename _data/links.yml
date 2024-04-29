@@ -1,0 +1,41 @@
+# ICONS can be found here 
+# https://iconify.design/
+# https://icon-sets.iconify.design/?category=General
+- category: Projects
+  items:
+    - title: IelectroFix Solutions
+      url: https://ielectrosolutions.com/
+      icon: mage:electricity # Icons are optional.
+    - title: SuperDave for Hire
+      url: https://superdaveforhire.com/
+      icon: f7:car-fill
+    - title: WhoVisions Presents
+      url: https://whovisionspresents.com/
+      icon: clarity:camera-line
+    - title: Somediceguys Dnd Podcast
+      url: https://linktr.ee/somediceguys
+      icon: fa6-solid:dice-d20
+    - title: Kenny Mercury Memorial Page
+      url: https://landedonmercury.com/
+      icon: teenyicons:audio-document-outline
+    - title: Web Development Intake Form
+      url: https://forms.gle/bHgDHCQN1c26vxS97
+      icon: icon-park-outline:upload-web
+    - title: Docker Development services
+      url: https://www.fiverr.com/techgameteddy/create-a-docker-image-for-your-application
+      icon: ant-design:code-outlined
+    - title: Linux/Troubleshooting services
+      url: https://www.fiverr.com/techgameteddy/assist-you-in-troubleshooting-linux-systems-and-issues
+      icon: ant-design:code-outlined
+    - title: Programming/Scripting Services 
+      url: https://www.fiverr.com/techgameteddy/automate-tasks-or-write-bash-scripts-for-you
+      icon: ant-design:code-outlined
+    - title: Shopify Development Services 
+      url: https://www.fiverr.com/techgameteddy/professionally-design-and-build-your-godaddy-online-store
+      icon: jam:shopify-square
+
+- category: Portfolio
+  items:
+    - title: Github
+      url: https://www.github.com/tedleyem
+      icon: ant-design:code-outlined
