@@ -1,79 +1,21 @@
 ---
 layout: post
-title:  "SOFTWARE DEVELOPMENT METHODOLOGIES"
+title:  "A history of DevOps, sort of"
 date:   2024-04-29
-excerpt: "lorem ipsum"
+excerpt: "devops and the cycle of understanding"
 img: "blog-headers/devops-banner-image.jpg" 
 project: true  
 ---
-
-Understanding the Evolution and the speed of change in he IT industry can be jarring. Trying to make sense of it through [many reddit posts](https://www.reddit.com/r/devops/) can send you down a spiral also. I think I might write a few things about what I have learned about these terms, what they mean and how they work and continue to define these things on a yearly basis, or go back to this blog to see if what I wrote today, is still viable next week, or next year. Here is a list of some key concepts of Devops and Cloud/IT/Software based terms and strategies. 
-
-## Agile
-![AGILE](/assets/img/blog/software-methods/agile.png)
-Iterative and incremental development.
-
-Agile Manifesto
-We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
-
-Individuals and interactions over processes and tools
-Working software over comprehensive documentation
-Customer collaboration over contract negotiation
-Responding to change over following a plan
-That is, while there is value in the items on the right, we value the items on the left more.
-
-## Scrum
-Scrum is an iterative, incremental methodology for project management often seen in agile software development.
-
-The name scrum came from rugby, where the whole team "tries to go the distance as a unit, passing the ball back and forth." Likewise, in scrum, the development phases strongly overlap and the whole process is performed by one cross-functional team across the different phases.
-
-A key principle of Scrum is its recognition that during a project, there can be requirements churn, and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, Scrum adopts an empirical approach accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly and respond to emerging requirements.
-
-Terminology
-
-Product Backlog
-Wish list for the features of final product.
-Release Backlog
-Priotirized list of Backlog.
-Spint Backlog
-Short duration (3-30dyas) milestones for ship-ready release.
-Burndown Chart
-This shows remaining work in the sprint backlog.
-
-
-## Extreme Programming (XP)
-Extreme Programming (XP) is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates timeboxing, which is intended to improve productivity and introduce checkpoints where new customer requirements can be adopted.
-
-Other elements of extreme programming include: programming in pairs or doing extensive code review, unit testing of all code, avoiding programming of features until they are actually needed, a flat management structure, simplicity and clarity in code, expecting changes in the customer's requirements as time passes and the problem is better understood, and frequent communication with the customer and among programmers.
-
-## Lean
-Think big, act small, fail fast; learn rapidly."
-
-Basic principles of lean are:
-
-Eliminate waste - Everything not adding value to the customer is considered to be waste
-Amplify learning - The learning process is sped up by usage of short iteration cycles each one coupled with refactoring and integration testing.
-Decide as late as possible- delaying decisions as much as possible until they can be made based on facts and not on uncertain assumptions and predictions.
-Deliver as fast as possible - The sooner the end product is delivered without considerable defect, the sooner feedback can be received, and incorporated into the next iteration.
-Empower the team
-Build integrity in - refactoring
-
-## Test-driven development (TDD)
-Test-driven development (TDD) relies on the repetition of a very short development cycle. It's a technique for designing a code. In TDD, each new feature begins with writing a test not the production code. By writing the test code first, we're focusing on the behavior of a unit or its interface.
-
-If we deliver a project using TDD, the code tends to be more cleaner and less complicated. This is because as I'm writing the test, I'm ensuring the code testable. Testable code is clean and simple so that we can isolate it and test it easily.
-
-
-## Water Fall
-The waterfall model maintains that one should move to a phase only when its preceding phase is completed and perfected.
-
-
+ 
 
 # DEVOPS and the cycle of understanding
-https://www.agitma.nl/devops-understanding-the-evolution/
+To be looking forward and continue forward growth companies find themselves prioritizing the need to change the way their teams are organized and operating. 
+The ideas and practices used in DevOps (to promote collaboration between development and operations) have become the common ground for Scrum and Agile thinking.
 
-DevOps: understanding the evolution
-Many organizations find themselves somehow confronted with the need to change the way their teams are organized and operating. Echoing in the hallways is this idea of DevOps. It sounds promising and has a lot of common ground with Scrum, which organizations are already familiar with. Moreover, it is drenched in Agile thinking. This blog is the first of a few concerning DevOps. In this blog I’ll describe an organizational evolution which frequently ‘’happens” to IT organizations in their journey towards DevOps. Which phase is your organization in and what is there to gain and overcome?
+
+
+
+This blog is the first of a few concerning DevOps. In this blog I’ll describe an organizational evolution which frequently ‘’happens” to IT organizations in their journey towards DevOps. Which phase is your organization in and what is there to gain and overcome?
 
 Definitions
 
