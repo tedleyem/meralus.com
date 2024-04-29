@@ -1,0 +1,69 @@
+---
+layout: main
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.links-tagline }} - {{ site.links-header }}</title>
+    <link rel="shortcut icon" href="{{ site.links-favicon }}" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
+    <meta name="description" content="{{ site.links-description }}">
+    <meta property="og:title" content="{{ site.links-header }}"/>
+    <meta property="og:description" content="{{ site.links-description }}">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:locale" content="{{ site.locale }}"/>
+    <meta property="og:image" content="{{ site.links-image.path }}"/>
+    <meta property="og:image:type" content="image/{{ site.links-image.type }}"/>
+    <meta property="og:image:width" content="{{ site.links-image.width }}">
+    <meta property="og:image:height" content="{{ site.links-image.height }}">
+    <meta property="og:image:alt" content="{{ site.links-image.alt }}">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.social-twitter }}" />
+    <meta name="twitter:title" content="{{ site.links-header }}" />
+    <meta name="twitter:description" content="{{ site.links-description }}" />
+    <meta name="twitter:image" content="{{ site.links-image.path }}" />
+</head>
+
+<body>
+    <div class="container is-full-screen">
+        <header>
+            <div class="top is-center is-vertical-align">
+                <h3>{{ site.links-header }}</h3>
+                <p>{{ site.links-description }}</p>
+            </div>
+        </header>
+        <!-- Sidebar and Theme -->
+        {% include head.html %}
+        <!-- Link Buttons -->
+    </div> 
+    <main>
+        {% for category in site.data.links %}
+        <h5 class="project-link">{{ category.category }}</h5>
+        {% for item in category.items %}
+        <div class="row">
+            {% if item.tag %}
+            <div class="col link is-center">
+                {% else %}
+                <div class="col is-center">
+                    {% endif %}
+                    <button class="button button2"> 
+                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">{% if item.icon %}<span class="iconify-inline"
+                            data-icon="{{ item.icon }}"></span>{% endif %}{{ item.title }}
+                        {% if item.tag %}<span class="tag is-small bd-success text-success">{{ item.tag }}</span>
+                        {%endif %}
+                        </a>
+                    </button>
+                    <br></br>
+                </div>
+            </div>
+            {% endfor %}
+            {% endfor %}
+    </main>
+</body>
+
+</html>
