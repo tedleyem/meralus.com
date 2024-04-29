@@ -55,3 +55,8 @@ GNU General Public License v3.0
 ## Resources
  [Relative Links plugin](https://github.com/benbalter/jekyll-relative-links)
  
+ ### Adding Icons
+Icons are powered by the free and open-source icon framework [Iconify](https://github.com/iconify), offering a selection of over 150,000 icons. Visit the [Iconify icon sets website](https://icon-sets.iconify.design/) to search for your preferred icon. Once you find your desired icon, copy its name and use it in the respective fields.
+
+### Adding Social Media Links
+Edit the [social.yml](_data/social.yml) file in the [_data](_data) folder to add your social media profiles, along with your preferred icons and colors.
