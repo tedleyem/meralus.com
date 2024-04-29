@@ -1,17 +1,31 @@
-title: Ted Meralus
+title: Tedley Meralus
 description: > # this means to ignore newlines until "baseurl:"
   The blogs and thoughts of Tedley Meralus.
-permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+url: "https://meralus.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: techdadteddy #if your site has a twitter account, enter it here
-
 # Author Settings
 author: Tedley Meralus # add your name
 author-img: moneyshot.png # add your photo
 about-author: An investment in knowledge pays the best interest.
 #about-author: I', currently focused on open source development and documenting my journey as I go. # add description
 #about-author: I provide freelance services for open source software, web development, linux based troubleshooting, cloud and IT consulting, and more. Documenting my journey as I go. # add description
+locale: en_GB # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
+
+# links tags
+links-header: Ted's Project Links  # Name of your website
+links-tagline: Tedley M  # Set your preferred page title
+links-description: Father, Software Engineer, Twin ✌🏿 # Also used as a meta description
+links-favicon: assets/favicon/favico-io-ted-cartoon-trans/favicon.ico # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
+links-logo: assets/img/moneyshot.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
+links-image:
+  path: assets/img/moneyshot.png # Used for SEO
+  type: jpeg # File format of image. Change according to your image. Supported types: https://en.wikipedia.org/wiki/Media_type#Common_examples
+  height: 100 # Pixels
+  width: 100
+  alt: logo
+
 social-twitter: techdadteddy # add your Twitter handle
 #social-facebook: tmeralus # add your Facebook handle
 social-github: tedleyem # add your Github handle
@@ -21,9 +35,6 @@ project-link: links.meralus.com
 project-tech: tedley.square.site
 
 social-email: tmeralus@gmail.com # add your Email address
-
-# Disqus
-# discus-identifier: techdadteddy # add your discus identifier
 
 # Tracker
 # analytics: # Google Analytics
