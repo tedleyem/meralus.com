@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pyfetch"
-date:   2024-05-03
+date:   2024-04-29
 excerpt: "python from scratch"
 img: "blog-headers/python.png" 
 project: true  
