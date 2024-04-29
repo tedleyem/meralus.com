@@ -1,7 +1,7 @@
 #!/bin/bash
 # setup jekyll site locally 
 # Install Ruby
-apt install ruby ruby-bundler ruby-dev
+brew install ruby-build #ruby-bundler ruby-dev
 # Configure Bundler Install Path
 bundle config set --local path 'vendor/bundle'
 # Install bundle

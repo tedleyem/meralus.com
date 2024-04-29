@@ -3,6 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The blogs and thoughts of Tedley Meralus.
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: ':title/'
+#permalink: ':title/blog/'
 url: "https://meralus.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: techdadteddy #if your site has a twitter account, enter it here
 # Author Settings
