@@ -14,12 +14,25 @@ about-author: An investment in knowledge pays the best interest.
 locale: en_GB # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
 
 # links tags
-links-header: Ted's Project Links  # Name of your website
+#links-header: Ted's Project Links  # Name of your website
 links-tagline: Tedley M  # Set your preferred page title
-links-description: Father, Software Engineer, Twin ✌🏿 # Also used as a meta description
+# links-description: Father, Software Engineer, Twin ✌🏿 # Also used as a meta description
 links-favicon: assets/favicon/favico-io-ted-cartoon-trans/favicon.ico # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
 links-logo: assets/img/moneyshot.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
 links-image:
+  path: assets/img/moneyshot.png # Used for SEO
+  type: jpeg # File format of image. Change according to your image. Supported types: https://en.wikipedia.org/wiki/Media_type#Common_examples
+  height: 100 # Pixels
+  width: 100
+  alt: logo
+
+# Service tags
+#services-header: Ted's Services  # Name of your website
+services-tagline: Tedley M  # Set your preferred page title
+# services-description: Father, Software Engineer, Twin ✌🏿 # Also used as a meta description
+services-favicon: assets/favicon/favico-io-ted-cartoon-trans/favicon.ico # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
+services-logo: assets/img/moneyshot.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
+services-image:
   path: assets/img/moneyshot.png # Used for SEO
   type: jpeg # File format of image. Change according to your image. Supported types: https://en.wikipedia.org/wiki/Media_type#Common_examples
   height: 100 # Pixels
