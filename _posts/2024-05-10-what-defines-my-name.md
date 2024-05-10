@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What defines my name"
-date:   2024-05-09
+date:   2024-05-10
 excerpt: "Life is but a mirror looking back at us, uncovering the layers we've neglected to see"
 img: "blog-headers/my_name_is.jpg" 
 project: true  
