@@ -8,7 +8,7 @@ project: true
 ---
  
 
-# DEVOPS and the cycle of understanding
+# Devops and the cycle of understanding
 Companies are always looking forward and working on forward growth prioritizing the need to change the way their teams are organized and operating. The best practices used in DevOps (to promote collaboration between development and operations) have become the common ground for Scrum and Agile thinking. My attempt here is to describe the cycle of what looks like frequent things that "happens" to IT as they move forward in DevOps. Anyone who has worked in Devops may find what im about to say familiar. 
 
 
