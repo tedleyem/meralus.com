@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "What defines my name"
-date:   2024-05-09
-excerpt: "Life is but a mirror looking back at us, uncovering the layers we've neglected to see"
+title:  "Career Reflection"
+date:   2024-05-11
+excerpt: "always a student, never a master, you have to keep moving forward"
 img: "blog-headers/monkey-reflection.jpg" 
 project: true  
 ---

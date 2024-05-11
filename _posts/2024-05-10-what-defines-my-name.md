@@ -26,7 +26,7 @@ My friends and I tend to joke about a lot of things, like most friends do. I ten
 Albert Einstein may have been misquoted for saying this but the truth that "if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid" is something I have learned over time. I have also focused on learning to be kinder to myself, and I can't thank my wife enough for helping me do that. So happy early mothers day to her.
 
 ##### Happy Early Mothers Day
-![Happy-Mothers-Day](/assets/img/blog-headers/mothers-day-3.jpeg)
+![Happy-Mothers-Day](/assets/img/blog/mothers-day-3.jpeg)
 
 
 

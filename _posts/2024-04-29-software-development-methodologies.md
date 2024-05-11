@@ -3,7 +3,7 @@ layout: post
 title:  "Software Development Methodologies"
 date:   2024-04-29
 excerpt: "modern software development"
-img: "blog-headers/devops-banner-image2.jpg" 
+img: "blog-headers/devops-is-burning.jpg" 
 project: true  
 ---
 
