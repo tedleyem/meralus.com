@@ -1,5 +1,8 @@
 ## Ted's Time Capsule and Blog site
 
+> Color theme 
+> gray color code  #25262a
+> green color code #4dba87
 
 ### Inspired by
 (Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
