@@ -3,7 +3,7 @@ layout: post
 title:  "Making good choices with ansible"
 date:   2024-06-03
 excerpt: "10 habits of great Ansible users"
-img: "blog-headers/ansible-banner-1.png"
+img: "blog-headers/ansible-banner-meditate.png"
 project: true
 ---
 
