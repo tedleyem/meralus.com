@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Using Terraform to spin up Minikube Locally"
-date:   2024-06-03
-excerpt: "10 habits of great Ansible users"
+title:  "Using Terraform/Open Tofu to spin up Minikube Locally"
+date:   2024-06-04
+excerpt: "container based app workloads"
 img: "blog-headers/vr-movie.jpg"
 project: true
 ---
@@ -10,44 +10,10 @@ project: true
 https://dev.to/chefgs/deploy-kubernetes-resources-in-minikube-cluster-using-terraform-1p8o
 
 
-Deploy Kubernetes Resources in Minikube cluster using Terraform
 
 Deploy Kubernetes Resources in Minikube cluster using Terraform
-#
-kubernetes
-#
-tutorial
-#
-minikube
-#
-terraform
-Terraform Tutorials (8 Part Series)
-1
-Developing Terraform Custom Provider for Terraform v0.12
-2
-Create Apache Web Server in AWS Using Terraform
-...
-4 more parts...
-7
-Create Amazon EKS Cluster using Terraform Module
-8
-Automate Kubernetes Deployment using Terraform and GitHub Actions
-How to create Kubernetes Resources in Minikube cluster using Terraform
-Table of Contents
-Context Setting
-Introduction
-First things first
-K8s Concepts used in this demo
-Steps to automate k8s deployment in minikube
-Step 1 Start minikube
-Step 2 Create Terraform code
-Step 3 Run Terraform Code to Create Resources
-Step 4 Verify the Kubernetes Resources
-Clear down demo resources
-Conclusion
-References
-Context Setting
-In this blog, We will see how to automate a namespace and nginx application deployment creation in minikube using Terraform automation.
+
+ 
 
 Introduction
 Container based application workloads can be managed using Kubernetes(or k8s in short) and there are multiple methods available to create kubernetes clusters.
@@ -71,6 +37,7 @@ kube config file is created when we install the minikube and it has the informat
 context refers to a set of parameters that contains information of Kubernetes cluster, a user, and a namespace
 
 Sample kube config for the minikube context and cluster info
+```
 apiVersion: v1
 contexts:
 - context:
@@ -95,9 +62,14 @@ clusters:
       name: cluster_info
     server: https://192.168.49.2:8443
   name: minikube
-Steps to automate k8s deployment in minikube
-Step 1 Start minikube
+```
+
+### Steps to automate k8s deployment in minikube
+
+### Step 1 Start minikube
 Use the command minikube start to start the local k8s minikube cluster
+
+```
 $ minikube start
 😄  minikube v1.24.0 on Ubuntu 21.04
     ▪ KUBECONFIG=$USERHOME/.kube/config
@@ -116,15 +88,16 @@ $ minikube start
 ❗  /snap/bin/kubectl is version 1.24.2, which may have incompatibilites with Kubernetes 1.22.3.
     ▪ Want kubectl v1.22.3? Try 'minikube kubectl -- get pods -A'
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+```
 
-Step 2 Create Terraform code
+### Step 2 Create Terraform code
 The terraform code used in this demo can be found here
 
 In terraform, we can split the different terraform building blocks in various files, as part of best practice.
 
 We have two files, as part of k8s minikube automation
 
-providers.tf
+### providers.tf
 This file contains the details regarding the terraform hashicorp provider modules we will be using to automate in required_providers section
 Also in the provider section, we need to declare the kube config file path and (minikube) context we will be using for our automation.
 terraform {
@@ -140,18 +113,22 @@ provider "kubernetes" {
   config_path    = "~/.kube/config"
   config_context = "minikube"
 }
-k8s.tf
+
+### k8s.tf
 k8s.tf is the main file, in which we will be declaring our new namespace and deployment
 Kubernetes provider module in Terraform supports the same kubernetes configuration declaration arguments and parameters like metadata, spec etc.
 So if you're aware of creating kube config yaml, it will be easy for you to create terraform code using the config yaml experience. Otherwise, there will be a little bit learning curve is there, to create the kubernetes configuration
 
 namespace will be defined as below,
+```
 resource "kubernetes_namespace" "example" {
   metadata {
     name = "k8s-ns-by-tf"
   }
 }
-deployment will be defined as below, and it is getting created under the new namespace we are creating
+```
+* deployment will be defined as below, and it is getting created under the new namespace we are creating
+```
 resource "kubernetes_deployment" "example" {
   metadata {
     name = "terraform-example"
@@ -160,9 +137,12 @@ resource "kubernetes_deployment" "example" {
     }
     namespace = "k8s-ns-by-tf"
   }
-In the deployment we are declaring a spec and it contains the replica definition and deployment template definition.
-In this automation example, we are creating deployment for nginx application
-Here's the sample config snippet showing the spec definition,
+```
+
+* In the deployment we are declaring a spec and it contains the replica definition and deployment template definition.
+* In this automation example, we are creating deployment for nginx application
+* Here's the sample config snippet showing the spec definition,
+```
   spec {
     replicas = 2
 
@@ -188,11 +168,18 @@ Here's the sample config snippet showing the spec definition,
       .....
       .....
    }
-Refer the k8s.tf file in the repo to see the complete config
-Step 3 Run Terraform Code to Create Resources
-We will be running the terraform commands to spin up the k8s deployment in minikube
+```
 
+* Refer the k8s.tf file in the repo to see the complete config
+
+
+### Step 3 Run Terraform Code to Create Resources
+* We will be running the terraform commands to spin up the k8s deployment in minikube
+
+```
 terraform init
+```
+```
 $ terraform init
 
 Initializing the backend...
@@ -210,8 +197,11 @@ should now work.
 If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
+```
 
-terraform plan
+* terraform plan
+
+```
 $ terraform plan
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
@@ -255,8 +245,11 @@ Terraform will perform the following actions:
           + uid              = (known after apply)
         }
     }
+```
 
-terraform apply
+* terraform apply
+
+```
 $ terraform apply
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
@@ -283,28 +276,42 @@ kubernetes_namespace.example: Creating...
 kubernetes_namespace.example: Creation complete after 0s [id=k8s-ns-by-tf]
 kubernetes_deployment.example: Creating...
 kubernetes_deployment.example: Creation complete after 3s [id=k8s-ns-by-tf/terraform-example]
+```
 
-Step 4 Verify the Kubernetes Resources
-We need the kubectl command to verify the kubernetes resources. It can installed from here
 
-We can verify the kubernetes resources using the commands below,
+## Step 4 Verify the Kubernetes Resources
+* We need the kubectl command to verify the kubernetes resources. It can installed from here
+* We can verify the kubernetes resources using the commands below,
+* List namespace using - kubectl get ns
 
-List namespace using - kubectl get ns
+```
 $ kubectl get ns k8s-ns-by-tf
 NAME           STATUS   AGE
 k8s-ns-by-tf   Active   3m52s
-View deployments using - kubectl get deployment -n k8s-ns-by-tf
+```
+
+* View deployments using - kubectl get deployment -n k8s-ns-by-tf
+
+```
 $ kubectl get deployment -n k8s-ns-by-tf
 NAME                READY   UP-TO-DATE   AVAILABLE   AGE
 terraform-example   2/2     2            2           4m14s
-Get the deployed pods using - kubectl get pods -n k8s-ns-by-tf
-Since we mentioned 2 replicas, we can see two pods deployed in the namespace
+```
+
+* Get the deployed pods using - kubectl get pods -n k8s-ns-by-tf
+* Since we mentioned 2 replicas, we can see two pods deployed in the namespace
+
+```
 $ kubectl get pods -n k8s-ns-by-tf
 NAME                                 READY   STATUS    RESTARTS   AGE
 terraform-example-67ddfbc845-9dx4r   1/1     Running   0          9m4s
 terraform-example-67ddfbc845-d68bw   1/1     Running   0          9m4s
-Clear down demo resources
-Once we are done with the demo, we can clear down the deployed resources using terraform destroy command,
+```
+
+### Clear up demo resources
+* Once we are done with the demo, we can clear down the deployed resources using terraform destroy command,
+
+```
 $ terraform destroy
 kubernetes_namespace.example: Refreshing state... [id=k8s-ns-by-tf]
 kubernetes_deployment.example: Refreshing state... [id=k8s-ns-by-tf/terraform-example]
@@ -334,12 +341,15 @@ kubernetes_deployment.example: Destruction complete after 0s
 kubernetes_namespace.example: Destruction complete after 6s
 
 Destroy complete! Resources: 2 destroyed.
-Conclusion
+```
+
+## Conclusion
 In this blog, we gone through some basics k8s concepts and creating k8s resource automation in minikube
 
-Refer my Tutorial blog series to learn more about kubernetes
+---
+### References
+[OpenTofu Kubernetes Backend](https://opentofu.org/docs/language/settings/backends/kubernetes/)
+[Terraform Kubernetes Provider docs](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)
+[Terraform Kubernetes Deployment docs](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/deployment)
+[Kubernetes Deployment Docs](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
-References
-Terraform Kubernetes Provider docs
-Terraform Kubernetes Deployment docs
-Kubernetes Deployment Docs
