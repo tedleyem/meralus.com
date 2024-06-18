@@ -7,6 +7,8 @@ img: "blog-headers/vr-movie.jpg"
 project: true
 ---
 
+-- maybe write a blog about it on linkedin
+https://www.linkedin.com/pulse/wazuh-siem-behind-many-ots-solutions-naveen-sharma-docpf/
 
 # What is SIEM
 As we navigate the complex landscape of cybersecurity, it’s evident that robust and adaptive defenses are pivotal. I’ve discovered that Wazuh stands out as a free, open-source security platform that delivers unified XDR (Extended Detection and Response) and SIEM (Security Information and Event Management) capabilities. The Wazuh platform not only caters to various environments, including public clouds, private clouds, and on-premise data centers, but it also offers a sanctuary against the ever-evolving threats that target endpoints and cloud workloads. My exploration of Wazuh revealed an arsenal of features, from threat hunting and incident response to file integrity monitoring and dashboards, all designed to reinforce the security posture of organizations.
@@ -148,30 +150,5 @@ As usual, do not hesitate to contact me if you have any questions. Hope this lit
 
 
 
-###################################################
-# Getting Started with Wazuh
-Embarking on your Wazuh journey is a straightforward process, and I’m here to guide you through the initial steps to harness the power of this open source XDR and SIEM platform. Let’s get you started:
-
-
-
-# Setting Up the Essentials:
-Follow the Quickstart guide for an automated installation that gets you up and running in minutes. If you prefer a more hands-on approach, the comprehensive Installation guide is your go-to resource for detailed instructions.
-Install your first Agents. This is a very simple process and the exact command line parameters will be generated for you based on your environment, youst go to the Agents sections and chose “Deploy New Agent”
-
-# local development with docker
-single node development
-
-# local development with minikube
-test locally with minikube and changes between docker and minikube
-
-# installing an agent with ansible
-# testing with docker/vagrant images
-
-
-# Test vulnerabilities with malware
-https://github.com/fire1ce/eicar-standard-antivirus-test-files
-
-https://www.eicar.org/download-anti-malware-testfile/
-
-
-# deploying with open tofu
+# Conclusion
+SIEM is a valuable reasource, it can give security professionals deep insight into events occuring on networked devices. This ability enhances an organizations security posture by assisting them in identifying and even actively responding to malicious events. SIEM does not only provide value to organizations, but also to power users on private networks. In my case I will be using this solution on my own network to monitor high value services that I use daily such as my home surveillance server. It is wonderful to know that free and open-source SIEM solutions exist for all, as it seems that most solutions are targeted towards organizations with large security budgets. Much respect to Wazuh and it’s awesome community!
