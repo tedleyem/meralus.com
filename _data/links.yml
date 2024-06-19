@@ -5,7 +5,11 @@
   items:
     - title: IelectroFix Solutions
       url: https://ielectrosolutions.com/
-      icon: mage:electricity # Icons are optional.
+      icon: mage:electricity
+
+    - title: SingleTwin Solutions
+      url: https://singletwinsolutions.com/
+      icon: noto:man-technologist-dark-skin-tone
 
     - title: SuperDave for Hire
       url: https://superdaveforhire.com/
