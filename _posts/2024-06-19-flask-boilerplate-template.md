@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Flask Boilerplate Template"
+title:  "Boiling a fresh Flask"
 date:   2024-06-19
-excerpt: "creating at template for flask projects"
+excerpt: "creating micro flask projects"
 img: "blog-headers/python-flask.jpg"
 project: true
 ---
