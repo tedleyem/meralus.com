@@ -1,4 +1,4 @@
-# ICONS can be found here 
+# ICONS can be found here
 # https://iconify.design/
 # https://icon-sets.iconify.design/?category=General
 - category: Projects
@@ -24,15 +24,12 @@
     - title: Docker Development services
       url: https://www.fiverr.com/techgameteddy/create-a-docker-image-for-your-application
       icon: ant-design:code-outlined
-    - title: Linux/Troubleshooting services
-      url: https://www.fiverr.com/techgameteddy/assist-you-in-troubleshooting-linux-systems-and-issues
-      icon: ant-design:code-outlined
-    - title: Programming/Scripting Services 
-      url: https://www.fiverr.com/techgameteddy/automate-tasks-or-write-bash-scripts-for-you
-      icon: ant-design:code-outlined
-    - title: Shopify Development Services 
-      url: https://www.fiverr.com/techgameteddy/professionally-design-and-build-your-godaddy-online-store
-      icon: jam:shopify-square
+    - title: Python Tinyurl Shortener Docker Image
+      url: https://hub.docker.com/repository/docker/tedleyem/python-shorturl/general
+      icon: teenyicons:audio-document-outline
+    - title: Python Quote Generator
+      url: https://hub.docker.com/repository/docker/tedleyem/python-quote-generator/general
+      icon: teenyicons:audio-document-outline
 
 - category: Portfolio
   items:
