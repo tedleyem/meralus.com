@@ -1,0 +1,53 @@
+# github-action-feed-to-social-media
+# https://github.com/lwojcik/github-action-feed-to-social-media
+name: Feed to social media
+on:
+  workflow_dispatch:
+
+jobs:
+  Feed2SocialMedia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Feed to social media
+        uses: lwojcik/github-action-feed-to-social-media@v2
+        with:
+          feedUrl: 'https://meralus.com/feed.xml'
+          newestItemStrategy: 'latestDate'
+          postFormat: "New blog post: {title} - {excerpt}\n\n{link}"
+          # Mastodon settings
+          mastodonEnable: true
+          mastodonPostFormat: "New post: {title}\n\n{link}"
+          #mastodonPostFormat: "New post: {title} - {excerpt}\n\n{link}"
+          mastodonInstance: 'https://https://mastodon.social'
+          mastodonAccessToken: 'MASTODON_ACCESS_TOKEN'
+          mastodonPostVisibility: 'unlisted'
+          # Mastodon metadata settings
+          #mastodonMetadataEnable: true
+          #mastodonMetadataInstance: 'https://mas.to'
+          #mastodonMetadataAccessToken: 'MASTODON_METADATA_ACCESS_TOKEN'
+          #mastodonMetadataFieldIndex: 0
+          # Twitter settings
+          twitterEnable: false
+          twitterPostFormat: "New post: {title}\n\n{link}"
+          #twitterPostFormat: "New post: {title} - {excerpt}\n\n{link}"
+          twitterApiKey: 'TWITTER_API_KEY'
+          twitterApiKeySecret: 'TWITTER_API_SECRET'
+          twitterAccessToken: 'TWITTER_ACCESS_TOKEN'
+          twitterAccessTokenSecret: 'TWITTER_ACCESS_TOKEN_SECRET'
+          # Discord settings
+          discordEnable: false
+          discordPostFormat: "New post: {title}\n\n{link}"
+          #discordPostFormat: "New post: {title} - {excerpt}\n\n{link}"
+          discordWebhookUrl: 'DISCORD_WEBHOOK_URL'
+          # Slack settings
+          slackEnable: false
+          #slackPostFormat: "New post: {title}\n\n{link}"
+          #slackPostFormat: "New post: {title} - {excerpt}\n\n{link}"
+          #slackWebhookUrl: 'DISCORD_WEBHOOK_URL'
+          # Bluesky settings
+          blueskyEnable: false
+          #blueskyPostFormat: "New post: {title}\n\n{link}"
+          #blueskyHandle: 'user.bsky.social'
+          #blueskyAppPassword: 'APP_PASSWORD'
+          #blueskyOwnerHandle: 'owner.bsky.social'
+          #blueskyOwnerContact: 'owner@example.org'
