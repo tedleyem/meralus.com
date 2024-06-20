@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wazuh - Why the blue wolf wins"
-date:   2024-06-21
+date:   2024-06-20
 excerpt: "Wazuh open source security platform deployment"
 img: "blog-headers/wazuh.jpg"
 project: true
