@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A talk about terraform workspaces"
-date:   2024-06-22
+date:   2024-06-21
 excerpt: "Managing IAC with terraform and multiple workspaces"
 img: "blog-headers/terraform_office_space.png"
 project: true
@@ -12,15 +12,15 @@ https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-usi
 
 This is part 1 of the How to manage multiple environments with Terraform blog post series. In this post, I’ll show you how to manage multiple environments with Terraform using workspaces:
 
-    Setting up environments using workspaces
-    Switching between environments
-    Using different configurations in each environment
-    Using different backends in each environment
-    Using different versions in each environment
-    Working with multiple modules
-    Advantages of workspaces
-    Drawbacks of workspaces
-    Conclusion
+* Setting up environments using workspaces
+* Switching between environments
+* Using different configurations in each environment
+* Using different backends in each environment
+* Using different versions in each environment
+* Working with multiple modules
+* Advantages of workspaces
+* Drawbacks of workspaces
+* Conclusion
 
 Note: Terraform Cloud and Terraform Enterprise also support a concept called workspaces, which is not the same as the CLI workspaces concept discussed in this post, but it’s similar, and has many of the same trade-offs.
 Setting up environments using workspaces
