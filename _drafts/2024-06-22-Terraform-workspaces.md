@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "A talk about terraform workspaces"
-date:   2023-10-07
+date:   2024-06-22
 excerpt: "Managing IAC with terraform and multiple workspaces"
-img: "blog-headers/vr-movie.jpg" 
-project: true  
+img: "blog-headers/terraform_office_space.png"
+project: true
 ---
 
 # MANAGING TERRAFORM ENVIORNMENTS WITH WORKSPACES
