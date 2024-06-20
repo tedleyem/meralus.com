@@ -17,7 +17,7 @@ Great news for the DevOps and Infrastructure as Code world – OpenTofu’s firs
 This OpenTofu tutorial includes:
 
 What is OpenTofu?
-Why OpenTofu matters in the DevOps ecosystem?
+Why OpenTofu matters in the D```evOps ecosystem?
 How to install OpenTofu
 How to migrate from Terraform to OpenTofu
 Basic OpenTofu components with examples
