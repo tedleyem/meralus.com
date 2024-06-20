@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use the tools, Lose the noise"
-date:   2024-07-04
+date:   2024-06-21
 excerpt: "Choosing cloud provisioning platforms"
 img: "blog-headers/vr-movie.jpg"
 project: true
