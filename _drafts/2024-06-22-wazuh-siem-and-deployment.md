@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A greek salad, some wazuh, and tofu on the side"
-date:   2024-06-21
+date:   2024-06-22
 excerpt: "Deploying Wazuh open source security platform"
 img: "blog-headers/vr-movie.jpg"
 project: true

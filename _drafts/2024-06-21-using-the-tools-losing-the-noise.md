@@ -12,7 +12,6 @@ OpenTofu Tutorial – Getting Started, How to Install & Examples
 https://spacelift.io/blog/opentofu-tutorial
 
 
-
 Great news for the DevOps and Infrastructure as Code world – OpenTofu’s first stable release is here!
 
 This OpenTofu tutorial includes:

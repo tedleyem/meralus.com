@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Terraform Workspaces Part 2"
-date:   2024-06-23
+date:   2024-06-24
 excerpt: "A talk about terraform workspaces"
 img: "blog-headers/terraform_office_space.png"
 project: true
