@@ -3,7 +3,7 @@ layout: post
 title:  "Use the tools, Lose the noise"
 date:   2024-07-04
 excerpt: "Choosing cloud provisioning platforms"
-img: "blog-headers/vr-movie.jpg"
+img: "blog-headers/tofu-terraform-decision-making.png"
 project: true
 ---
 
