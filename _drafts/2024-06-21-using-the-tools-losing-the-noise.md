@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use the tools, Lose the noise"
-date:   2024-07-04
+date:   2024-06-21
 excerpt: "Choosing cloud provisioning platforms"
 img: "blog-headers/tofu-terraform-decision-making.png"
 project: true
@@ -12,13 +12,12 @@ OpenTofu Tutorial – Getting Started, How to Install & Examples
 https://spacelift.io/blog/opentofu-tutorial
 
 
-
 Great news for the DevOps and Infrastructure as Code world – OpenTofu’s first stable release is here!
 
 This OpenTofu tutorial includes:
 
 What is OpenTofu?
-Why OpenTofu matters in the DevOps ecosystem?
+Why OpenTofu matters in the D```evOps ecosystem?
 How to install OpenTofu
 How to migrate from Terraform to OpenTofu
 Basic OpenTofu components with examples
