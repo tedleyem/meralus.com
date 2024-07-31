@@ -42,7 +42,7 @@ layout: main
         <!-- Sidebar and Theme -->
         {% include head.html %}
         <!-- Link Buttons -->
-    </div> 
+    </div>
     <main>
         {% for category in site.data.services %}
         <h5 class="project-link">{{ category.category }}</h5>
@@ -53,11 +53,11 @@ layout: main
                 {% else %}
                 <div class="col is-center">
                     {% endif %}
-                    <button class="button button2"> 
-                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">{% if item.icon %}<span class="iconify-inline"
-                            data-icon="{{ item.icon }}"></span>{% endif %}{{ item.title }}
-                        {% if item.tag %}<span class="tag is-small bd-success text-success">{{ item.tag }}</span>
-                        {%endif %}
+                    <button class="button3">
+                        <a class="button outline secondary" href="{{ item.url }}" target="_blank">
+                            <span class="iconify-inline" data-icon="{{ item.icon }}">
+                            </span> {{ item.title }}
+                            <span class="tag is-small bd-success text-success"></span>
                         </a>
                     </button>
                     <br></br>
