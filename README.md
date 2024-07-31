@@ -1,8 +1,10 @@
 ## Ted's Time Capsule and Blog site
 
-> Color theme 
+```
+> Color theme
 > gray color code  #25262a
 > green color code #4dba87
+```
 
 ### Inspired by
 (Flexible-Jekyll is a simple and clean theme for Jekyll)[https://github.com/artemsheludko/flexible-jekyll)
@@ -57,7 +59,7 @@ GNU General Public License v3.0
 
 ## Resources
  [Relative Links plugin](https://github.com/benbalter/jekyll-relative-links)
- 
+
  ### Adding Icons
 Icons are powered by the free and open-source icon framework [Iconify](https://github.com/iconify), offering a selection of over 150,000 icons. Visit the [Iconify icon sets website](https://icon-sets.iconify.design/) to search for your preferred icon. Once you find your desired icon, copy its name and use it in the respective fields.
 

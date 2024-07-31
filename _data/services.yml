@@ -1,22 +1,40 @@
-# ICONS can be found here 
+# ICONS can be found here
 # https://iconify.design/
 # https://icon-sets.iconify.design/?category=General
+
 - category: Services
   items:
-- category: IT Services (COMING SOON) 
-  items:
-#    - title: IelectroFix Solutions
-#      url: https://ielectrosolutions.com/
-#      icon: ri:film-fill # Icons are optional.
+    - title: Linux Consulting Services
+      url:  https://meralus.com/
+      icon: uiw:linux
+      text: PlaceHolder
 
-- category: Cloud Services (COMING SOON)
-  items:
-#    - title: Web Development Intake Form
-#      url: https://forms.gle/bHgDHCQN1c26vxS97
-#      icon: ri:film-fill # Icons are optional. 
+    - title: Ansbile Automation Services
+      url:  https://meralus.com/
+      icon: carbon:logo-red-hat-ansible
+      text: PlaceHolder
 
-- category: Programming (COMING SOON)
-  items:
-#    - title: Github
-#      url: https://www.github.com/tedleyem
-#      icon: ri:film-fill # Icons are optional.
+    - title: Infrastructure Managed Services
+      url:  https://meralus.com/
+      icon: streamline:industry-innovation-and-infrastructure-solid
+      text: PlaceHolder
+
+    - title: High Availability Consulting
+      url:  https://meralus.com/
+      icon: oui:app-uptime
+      text: PlaceHolder
+
+    - title: SAAS Consulting
+      url:  https://meralus.com/
+      icon: carbon:container-software
+      text: PlaceHolder
+
+    - title: Devops Consulting
+      url:  https://meralus.com/
+      icon: mdi:infinity-box
+      text: PlaceHolder
+
+    - title: Scripting/Programming Services
+      url:  https://meralus.com/
+      icon: solar:programming-linear
+      text: PlaceHolder

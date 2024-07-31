@@ -42,32 +42,27 @@ layout: main
         <!-- Sidebar and Theme -->
         {% include head.html %}
         <!-- Link Buttons -->
-    </div> 
+    </div>
     <main>
         <div class="top is-center is-vertical-align">
         {% for category in site.data.links %}
         <h5 class="project-link">{{ category.category }}</h5>
         {% for item in category.items %}
-        <div class="row">
-            {% if item.tag %}
-            <div class="col link is-center">
-                {% else %}
-                <div class="col is-center">
-                    {% endif %}
-                    <button class="button2"> 
-                        <a href="{{ item.url }}" target="_blank">{% if item.icon %} <span class="iconify-inline"
-                            data-icon="{{ item.icon }}"></span>{% endif %}
-                            {{ item.title }}
-                        {% if item.tag %}<span class="tag is-small bd-success text-success"> {{ item.tag }}</span>
-                        {%endif %}
-                        </a>
-                    </button>
-                    <br></br>
-                </div>
-            </div>
-            {% endfor %}
-            {% endfor %}
         </div>
+        <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ item.url }}" target="_blank">
+                    {% if item.icon %}
+                    <span class="iconify-inline"
+                        data-icon="{{ item.icon }}"></span>
+                    {% endif %} {{ item.title }}</h5>
+                <!-- <p class="card-text">{{ item.text }}</p> -->
+                <!-- <p class="card-text"><small class="text-muted">{{ item.url }}</small></p>  -->
+              </div>
+            </div>
+        {% endfor %}
+        {% endfor %}
     </main>
 </body>
 

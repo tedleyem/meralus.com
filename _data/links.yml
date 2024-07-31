@@ -1,46 +1,30 @@
 # ICONS can be found here
 # https://iconify.design/
 # https://icon-sets.iconify.design/?category=General
+
 - category: Projects
   items:
-    - title: IelectroFix Solutions
-      url: https://ielectrosolutions.com/
-      icon: meteocons:lightning-bolt-fill
-
-    - title: SingleTwin Solutions
-      url: https://singletwinsolutions.com/
-      icon: noto:man-technologist-dark-skin-tone
-
-    - title: SuperDave for Hire
-      url: https://superdaveforhire.com/
-      icon: f7:car-fill
-
     - title: WhoVisions Presents
-      url: https://whovisionspresents.com/
       icon: noto-v1:camera
+      url: https://whovisionspresents.com/
+      text: A New York Photographer site! Who Shot ya?
 
     - title: Somediceguys Dnd Podcast
-      url: https://linktr.ee/somediceguys
       icon: fa6-solid:dice-d20
+      url: https://linktr.ee/somediceguys
+      text: A DnD podcast
 
     - title: Kenny Mercury Memorial Page
-      url: https://landedonmercury.com/
       icon: flat-color-icons:music
+      url: https://landedonmercury.com/
+      text: R.I.P Kenny Mercury
 
-    - title: Web Development Intake Form
-      url: https://forms.gle/bHgDHCQN1c26vxS97
-      icon: logos:web-dev-icon
+    - title: IelectroFix Solutions
+      icon: meteocons:lightning-bolt-fill
+      url: https://ielectrosolutions.com/
+      text: Lake Worth IT Company
 
-    - title: Python Tinyurl Shortener Docker Image
-      url: https://hub.docker.com/repository/docker/tedleyem/python-shorturl/general
-      icon: logos:python
-
-    - title: Python Quote Generator Docker Image
-      url: https://hub.docker.com/repository/docker/tedleyem/python-quote-generator/general
-      icon: logos:python
-
-- category: Portfolio
-  items:
-    - title: Github
-      url: https://www.github.com/tedleyem
-      icon: ant-design:code-outlined
+    - title: SingleTwin Solutions
+      icon: noto:man-technologist-dark-skin-tone
+      url: https://singletwinsolutions.com/
+      text: IT and Software Consulting Company

@@ -40,10 +40,9 @@ services-image:
   alt: logo
 
 social-twitter: techdadteddy # add your Twitter handle
-#social-facebook: tmeralus # add your Facebook handle
 social-github: tedleyem # add your Github handle
 social-linkedin: tmeralus # add your Linkedin handle
-home-link: meralus.com  
+home-link: meralus.com
 
 social-email: tmeralus@gmail.com # add your Email address
 
@@ -56,7 +55,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - jekyll-feed 
+  - jekyll-feed
   - jekyll-relative-links
 
 paginate: 8
@@ -65,15 +64,15 @@ paginate_path: "/page/:num"
 relative_links:
   enabled:     false
   collections: false
-  
+
 relative_links:
   exclude:
     - directory
     - file.md
 
-exclude: 
+exclude:
   - node_modules
   - gulpfile.js
   - package.json
   - yarn.lock
-  - vendor 
+  - vendor
