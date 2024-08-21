@@ -6,7 +6,6 @@ excerpt: "lorem ipsum"
 img: "blog-headers/vr-movie.jpg"
 project: true
 ---
-
 Automating AWS Infrastructure Provisioning in Your CI/CD Pipeline with Terraform and GitHub Action
 In this article, I will guide you with the steps on how to provision an instance (VM) in AWS Cloud by using Terraform code and a CICD pipeline that is GitHub Action. But before proceeding further, let me give you a brief overview of Terraform and GitHub Action.
 
