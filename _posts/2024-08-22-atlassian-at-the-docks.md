@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Modernize your infrastructure by leveraging docker"
-date:   2024-08-22
+title: "Modernize your infrastructure by leveraging docker"
+date: 2024-08-22
 excerpt: "portable Atlassian suite"
 img: "blog-headers/atlassian-deployment-blog.png"
 project: true
