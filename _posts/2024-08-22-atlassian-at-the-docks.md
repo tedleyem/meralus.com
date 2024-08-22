@@ -51,4 +51,4 @@ Who would I be if I didn't share some code for others to test things out with. R
 --
 [Deploy with Docker](https://github.com/tedleyem/atlassian/tree/master/docker)
 [Deploy with Kubernetes](https://github.com/tedleyem/atlassian/tree/master/kubernetes)
-[Deploy with Terraform (in aws)](https://github.com/tedleyem/atlassian/tree/master/terraform)
+[Deploy with Terraform (in AWS)](https://github.com/tedleyem/atlassian/tree/master/terraform)
