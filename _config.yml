@@ -9,6 +9,7 @@ site-twitter: techdadteddy #if your site has a twitter account, enter it here
 author: Tedley Meralus # add your name
 author-img: moneyshot.png # add your photo
 about-author: An investment in knowledge pays the best interest.
+# I'm just a software engineer from Florida with a focus on Linux and Open Source software.  
 #about-author: I', currently focused on open source development and documenting my journey as I go. # add description
 #about-author: I provide freelance services for open source software, web development, linux based troubleshooting, cloud and IT consulting, and more. Documenting my journey as I go. # add description
 locale: en_GB # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
