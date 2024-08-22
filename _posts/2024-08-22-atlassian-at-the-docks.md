@@ -48,7 +48,7 @@ I have helped deploy docker instances and reduced downtime in development and st
 ## See for yourself
 Who would I be if I didn't share some code for others to test things out with. Reading these blogs could be fun, but playing with the applications and processes are more fun. Here is a list of deployment resources to test out using Docker, Kubernetes, and Terraform.
 
---
+---
 [Deploy with Docker](https://github.com/tedleyem/atlassian/tree/master/docker)
 [Deploy with Kubernetes](https://github.com/tedleyem/atlassian/tree/master/kubernetes)
 [Deploy with Terraform (in AWS)](https://github.com/tedleyem/atlassian/tree/master/terraform)
