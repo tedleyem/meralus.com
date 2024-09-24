@@ -21,8 +21,11 @@ Here is the  Github Action below.
 
 ```
 name: Build and Push Docker Image to Docker Hub
-
-on: push
+on:
+  push:
+    branches:
+      - main
+      - master
 jobs:
   push_to_registry:
     name: push docker image to hub
@@ -52,5 +55,11 @@ This will update https://hub.docker.com/layers/tedleyem/python-quote-generator d
 
 
 # Things to note 
-This actuion requires you to setup the DOCKERHUB_USERNAME and DOCKERHUB_TOKEN inside your repos secrets. This is specific to this repository. 
+* This action requires you to setup the DOCKERHUB_USERNAME and DOCKERHUB_TOKEN inside your repos secrets. This is specific to this repository. 
 
+* You can set up actions to only push on the main branch of this repo. This allows less clutter of images and ensures that only the main branch is being pushed to docker and not a development or feature branch. 
+
+
+You can view these actions as they get pushed in the actions tab of your repository. Check out this repos actions and get into the automation of things here. [actions tab](https://github.com/tedleyem/python-quote-generator/actions)
+
+Many times I feel like these things im learning and doing are trivial or insignificant because I learned it and used it to solve a problem many moons ago, but writing it down allows me to cement it into long term memory and give myself a digital pat on the back. Many times during the journey we forget to "smell the roses", this is a time to do so in your own right. If this blog helped you, pay it forward somehow and remember to sit back and touch grass.
