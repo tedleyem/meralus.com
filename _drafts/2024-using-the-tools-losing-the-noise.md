@@ -7,24 +7,14 @@ img: "blog-headers/tofu-terraform-decision-making.png"
 project: true
 ---
 
+-- maybe write a blog about it on linkedin
+OpenTofu Tutorial – Getting Started, How to Install & Examples
+https://spacelift.io/blog/opentofu-tutorial
 
-Great news for the DevOps and Infrastructure as Code world – OpenTofu’s first stable release is here!
 
-This OpenTofu tutorial includes:
+OpenTofu’s first stable release is here! Hip hip... what does that mean? And why should I care?
 
 What is OpenTofu?
-Why OpenTofu matters in the DevOps ecosystem?
-How to install OpenTofu
-How to migrate from Terraform to OpenTofu
-Basic OpenTofu components with examples
-Key features of OpenTofu
-Common problems and solutions
-OpenTofu best practices
-Advanced OpenTofu features
-OpenTofu registry
-Using OpenTofu with Spacelift
-
-# What is OpenTofu?
 OpenTofu is an open-source project that serves as a fork of the legacy MPL-licensed Terraform. It was developed as a response to a change in HashiCorp’s licensing of Terraform, from Mozilla Public License (MPL) to a Business Source License (BSL), which imposed limitations on the use of Terraform for commercial purposes. As an alternative, OpenTofu aims to offer a reliable, community-driven solution under the Linux Foundation.
 
 # Why OpenTofu matters in the DevOps ecosystem?

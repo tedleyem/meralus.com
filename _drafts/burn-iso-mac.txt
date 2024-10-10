@@ -1,5 +1,7 @@
  Burn ISO to DVD in macos 10.15 Catalina
-If you are not afraid of the command line, you can burn ISO images from there where the Finder fails.  For example, to burn the latest Ubuntu ISO, load Terminal.app, and there you would type the command (in bold; the resulting output is below):
+If you are not afraid of the command line, you can burn ISO images from there where the Finder fails.  
+For example, to burn the latest Ubuntu ISO, load Terminal.app, 
+and there you would type the command (in bold; the resulting output is below):
 
 
 hdiutil burn ubuntu-19.10-desktop-amd64.iso
