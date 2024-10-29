@@ -77,14 +77,14 @@ https://docs.docker.com
 | Command   | description |
 | -------- | ------- |
 | docker login -u <username> | Login to Docker |
-| docekr push <username>/<image_name> | Publish an image to Docker Hub |
+| docker push <username>/<image_name> | Publish an image to Docker Hub |
 | docker search <image_name>| Search Hub for an image |
 | docker pull <image_name>| Pull an image from Docker Hub |
 
 ## CONTAINERS
 | Command   | description |
 | -------- | ------- |
-| docker build -t <image_name> . –no-cachedocker run --name <container_name> <image_name> | Create and run a container from an image, with a custom name|
+| docker build -t <image_name> . –no-cache docker run --name <container_name> <image_name> | Create and run a container from an image, with a custom name|
 | docker run -p <host_port>:<container_port> <image_name> | Run a container with and publish a container’s port(s) to the host|
 | docker run -d <image_name> | Run a container in the background|
 | docker start|stop <container_name> (or <container-id>)| Start or stop an existing container|
