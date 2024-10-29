@@ -3,7 +3,7 @@ layout: post
 title:  "Resetting root passwords in RHEL"
 date:   2024-10-28
 excerpt: "break this glass in your vm in case of emergencies"
-img: "blog-headers/docker-introduction-01.jpg"
+img: "blog-headers/break-fix-root-login.png"
 project: true
 ---
 
