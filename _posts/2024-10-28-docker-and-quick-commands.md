@@ -56,7 +56,7 @@ https://github.com/docker/awesome-compose
 Check out our docs for information on using Docker
 https://docs.docker.com
 
-# GENERAL COMMANDS
+## GENERAL COMMANDS
 | Command   | description |
 | -------- | ------- |
 | docker -d  | Start the docker daemon |
@@ -64,7 +64,7 @@ https://docs.docker.com
 | docker info | Display system-wide information|
 
 
-# IMAGES
+## IMAGES
 | Command   | description |
 | -------- | ------- |
 | docker build -t <image_name> | Build an Image from a Dockerfile |
@@ -73,7 +73,7 @@ https://docs.docker.com
 | docker rmi <image_name> | Delete an image |
 | docker image prune| Remove all unused images |
 
-# DOCKER HUB
+## DOCKER HUB
 | Command   | description |
 | -------- | ------- |
 | docker login -u <username> | Login to Docker |
@@ -81,7 +81,7 @@ https://docs.docker.com
 | docker search <image_name>| Search Hub for an image |
 | docker pull <image_name>| Pull an image from Docker Hub |
 
-# CONTAINERS
+## CONTAINERS
 | Command   | description |
 | -------- | ------- |
 | docker build -t <image_name> . –no-cachedocker run --name <container_name> <image_name> | Create and run a container from an image, with a custom name|
