@@ -17,51 +17,51 @@ OpenTofu’s first stable release is here! Hip hip... what does that mean? And w
 What is OpenTofu?
 OpenTofu is an open-source project that serves as a fork of the legacy MPL-licensed Terraform. It was developed as a response to a change in HashiCorp’s licensing of Terraform, from Mozilla Public License (MPL) to a Business Source License (BSL), which imposed limitations on the use of Terraform for commercial purposes. As an alternative, OpenTofu aims to offer a reliable, community-driven solution under the Linux Foundation.
 
-Why OpenTofu matters in the DevOps ecosystem?
+# Why OpenTofu matters in the DevOps ecosystem?
 OpenTofu ensures that one of the core and most popular IaC tool remains open-source. With this you not only get an open-source Terraform alternative, but this also ensures the fact that the later deployment of OpenTofu will take advantage of the community’s feedback.
 
 In the DevOps world, OpenTofu’s significance is amplified by its capabilities of infrastructure management. It continues the legacy of Terraform by supporting infrastructure as code (IaC). This enables teams to automate and efficiently manage infrastructure deployment, crucial for enhancing operational scalability and reliability.
 
 OpenTofu’s backward compatibility with Terraform’s infrastructure also means organizations deeply integrated with Terraform can transition without disrupting their existing workflows. This compatibility, coupled with the broad support from various organizations in the DevOps community, positions OpenTofu not just as a tool but as a potential standard in the evolving landscape of DevOps, supporting its principles of automation, collaboration, and continuous improvement.
 
-How to install OpenTofu
+# How to install OpenTofu
 Let’s see different ways you can install OpenTofu.
 
-Alpine Linux
-For Alpine, you could either install OpenTofu from the Alpine Testing repository or install the apk directly.
-
-To install OpenTofu from the repository you can run the following command:
-
-apk add opentofu --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/
-To install the apk directly, you will first have to download one of the versions from here, and run the following command:
-
-apk add --allow-untrusted tofu_*.apk
-You can reference the official OpenTofu docs for more details here.
-
-Ubuntu/Debian
+# Ubuntu/Debian
 To add the repositories, you will need to install some tooling, that should be mostly available on Debian systems:
-
+```
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
+```
 After this, you will need to ensure you have a copy of the OpenTofu GPG key.
-
+```
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://get.opentofu.org/opentofu.gpg | sudo tee /etc/apt/keyrings/opentofu.gpg >/dev/null
+
 curl -fsSL https://packages.opentofu.org/opentofu/tofu/gpgkey | sudo gpg --no-tty --batch --dearmor -o /etc/apt/keyrings/opentofu-repo.gpg >/dev/null
+
 sudo chmod a+r /etc/apt/keyrings/opentofu.gpg
+```
 When you are done with this, create the OpenTofu source list:
 
+```
 echo \
   "deb [signed-by=/etc/apt/keyrings/opentofu.gpg,/etc/apt/keyrings/opentofu-repo.gpg] https://packages.opentofu.org/opentofu/tofu/any/ any main
 deb-src [signed-by=/etc/apt/keyrings/opentofu.gpg,/etc/apt/keyrings/opentofu-repo.gpg] https://packages.opentofu.org/opentofu/tofu/any/ any main" | \
   sudo tee /etc/apt/sources.list.d/opentofu.list > /dev/null
-In the end, install OpenTofu by running:
+```
 
+Finally, you can actually install OpenTofu by running the following:
+
+```
 sudo apt-get update
 sudo apt-get install -y tofu
-RHEL/Suse/Fedora
-For rpm based systems, you will first need to create the repo:
+```
 
+# RHEL/Suse/Fedora
+For rpm based systems, you will first need to create the repo:
+Save the following to /etc/yum.repos.d/opentofu.repo
+```
 [opentofu]
 name=opentofu
 baseurl=https://packages.opentofu.org/opentofu/tofu/rpm_any/rpm_any/\$basearch
@@ -83,35 +83,23 @@ gpgkey=https://get.opentofu.org/opentofu.gpg
 sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 metadata_expire=300
-If you are using yum, save this to /etc/yum.repos.d/opentofu.repo, and if you are using zipper, save this to /etc/zypp/repos.d/opentofu.repo.
+```
 
-After you have created the repo, run the following commands:
+After creating the repo, run the following commands:
 
 # yum
 sudo yum install -y tofu
 
-# zypper
-zypper --gpg-auto-import-keys refresh opentofu
-zypper --gpg-auto-import-keys refresh opentofu-source
-zypper install -y tofu
-Linux (Install via Snap)
-snap install --classic opentofu
-MacOS
-The OpenTofu package is available in the Homebrew Core repository so you can install it by running the following command:
 
+# MacOS
+The OpenTofu package is available in [Homebrew](https://opentofu.org/docs/intro/install/homebrew/) so you can install it by running the following command:
+```
 brew install opentofu
-Portable Binary – Windows
-$TOFU_VERSION="1.6.0"
-$TARGET=Join-Path $env:LOCALAPPDATA OpenTofu
-New-Item -ItemType Directory -Path $TARGET
-Push-Location $TARGET
-Invoke-WebRequest -Uri "https://github.com/opentofu/opentofu/releases/download/v${TOFU_VERSION}/tofu_${TOFU_VERSION}_windows_amd64.zip" -OutFile "tofu_${TOFU_VERSION}_windows_amd64.zip"
-Expand-Archive "tofu_${TOFU_VERSION}_windows_amd64.zip" -DestinationPath $TARGET
-Remove-Item "tofu_${TOFU_VERSION}_windows_amd64.zip"
-$TOFU_PATH=Join-Path $TARGET tofu.exe
-Pop-Location
-echo "OpenTofu is now available at ${TOFU_PATH}. Please add it to your path for easier access."
-Portable Binary – Linux/MacOS
+```
+
+Manual Binary Install Script - Linux/MacOS
+
+```
 #!/bin/sh
 set -e
 TOFU_VERSION="1.6.0"
@@ -125,8 +113,10 @@ sudo mv tofu /usr/local/bin/tofu
 popd >/dev/null
 rm -rf "${TEMPDIR}"
 echo "OpenTofu is now available at /usr/local/bin/tofu."
-How to migrate from Terraform to OpenTofu
-It is really easy to migrate from Terraform to OpenTofu. At the moment of writing, OpenTofu acts as a drop-in replace for Terraform.
+```
+
+# How to migrate from Terraform to OpenTofu
+Migrating from Terraform to OpenTofu. At the moment of writing, OpenTofu acts as a drop-in replace for Terraform.
 
 What you need to do to perform the migration is simply install OpenTofu using one of the methods mentioned above that works for your operating system, and after that run:
 
@@ -411,30 +401,22 @@ Executing Test File –  Each test file in the suite is executed sequentially. W
 
 – The suite status is updated after each run
 
-Summary and Cleanup – After executing the tests, OpenTofu prints out summaries for each test file and for each run. It then attempts to destroy the resources provisioned by each run in reverse order, ensuring clean-up of the testing infrastructure.
+# Summary and Cleanup –
+After executing the tests, OpenTofu prints out summaries for each test file and for each run. It then attempts to destroy the resources provisioned by each run in reverse order, ensuring clean-up of the testing infrastructure.
 Termination Status – The command exits with a status code 0 if all tests passed or 1 if any tests failed​
 Read more on how to define tests here.
 
-OpenTofu registry
+# OpenTofu registry
 OpenTofu has its own registry for providers and modules. The provider registry protocol and the module registry protocol are systems used by OpenTofu to discover details and install providers and modules.
 
 Providers are uniquely identified by addresses formatted as hostname/namespace/type. This protocol supports versioning, where each provider address is associated with multiple versions following Semantic Versioning conventions. Service discovery begins with the OpenTofu CLI querying a hostname to locate providers, which is essential for ensuring compatibility with specific OpenTofu versions and platforms. The protocol also outlines the necessary steps for listing available versions of a provider and retrieving provider packages, including download URLs and necessary metadata like checksums and signing keys, so make sure to check it out to view some usage examples.
 
 Modules, on the other hand,  are identified by a specific address format (hostname/namespace/name/system), with each address containing multiple versions following Semantic Versioning. The protocol includes steps for listing available module versions and retrieving specific module versions for download as in the provider case. You will also need to check the documentation to view some usage examples. It also provides a service discovery mechanism, where the CLI uses a hostname to locate modules. This approach facilitates the management and distribution of modules in a structured and efficient manner.
 
-Using OpenTofu with Spacelift
-OpenTofu is supported natively within Spacelift.
-
-To see how easy it is to use it, check out this article.
-
-If you are looking for help in migrating from Terraform to OpenTofu, or if you are searching for an infrastructure management platform that supports top flavors of infrastructure as code (including OpenTofu 1.7), configuration management, and container Orchestration, don’t hesitate to reach out to Spacelift.
-
-As a founding partner of the initiative, Spacelift offers the native and commercial support you need to ensure your OpenTofu success. Learn more about OpenTofu Commercial Support & Services.
 
 Key points
-OpenTofu’s first stable release is here. You can easily install it and the migration from Terraform is pretty straightforward. With OpenTofu you get all the advantages that Terraform offers, and judging by the fact that it is open source and under the Linux Foundation umbrella, you get what Terraform never had – a community-first development approach.
+OpenTofu’s first stable release is here. You can easily install it and the migration from Terraform in a pretty straightforward manner. With OpenTofu you get all the advantages that Terraform offers, and judging by the fact that it is open source and under the Linux Foundation umbrella, you get what Terraform never had – a community-first development approach.
 
-Terraform and OpenTofu are on feature parity right now, but they will most likely drift in the future, and you will have to choose the IaC tool to use.
+Terraform and OpenTofu are on feature parity right now, but that will probably change in the near future, and you will have to choose the IaC tool to use.
 
-If you want to take your OpenTofu workflow to the next level, you can use Spacelift. Create a free account today or book a demo with one of our engineers.
-
+If you want to take your OpenTofu workflow you can find all that [here](https://opentofu.org/). Or, if you plan on staying with Terraform, hashicorp has a plethora of tools to use. Either way, you should consider why the tool is being used and what its being used for. Understanding the purpose, not only of the tool at hand, but its place in your environment, will help weed out the noise.
