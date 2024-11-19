@@ -2,6 +2,35 @@
 # https://iconify.design/
 # https://icon-sets.iconify.design/?category=General
 
+- category: Projects
+  items:
+    - title: Python Projects
+      url:  https://meralus.com/
+      icon: uiw:linux
+      text: PlaceHolder
+
+    - title: Terraform Projects
+      url:  https://meralus.com/
+      icon: carbon:logo-red-hat-ansible
+      text: PlaceHolder
+
+    - title: Ansbile Automation Projects
+      url:  https://meralus.com/
+      icon: carbon:logo-red-hat-ansible
+      text: PlaceHolder
+
+    - title: Managed Docker Apps
+      url:  https://meralus.com/
+      icon: carbon:logo-red-hat-ansible
+      text: PlaceHolder 
+
+    - title: Ansbile Automation Services
+      url:  https://meralus.com/
+      icon: carbon:logo-red-hat-ansible
+      text: PlaceHolder
+
+
+
 - category: Services
   items:
     - title: Linux Consulting Services
